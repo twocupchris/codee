@@ -1,3 +1,1716 @@
-getgenv().key = 'ba21ccc39b07f6b7accb4f9cf751306b0d6218d2'
+getgenv().key = 'b4a113e22d15b70a9e3062b0eb7a8552246b1881'
 
-local v0=game.GetService(game,"Players").LocalPlayer.UserId;local v1=game.GetService(game,"Players").GetUserIdFromNameAsync(game.GetService(game,"Players"),game.GetService(game,"Players").LocalPlayer);if (v0~=v1) then game.GetService(game,"Players").LocalPlayer.Kick(game.GetService(game,"Players").LocalPlayer);while true do Instance.new("Part",workspace);end end if (game.HttpGet(game,"https://wozzybozzy.000webhostapp.com/check_key.php?key="   .. getgenv().key   .. "&id="   .. v1 )==v0) then local v2=game.Players.LocalPlayer;local v3=Instance.new("ScreenGui");local v4=Instance.new("Frame");local v5=Instance.new("UICorner");local v6=Instance.new("Frame");local v7=Instance.new("UICorner");local v8=Instance.new("Frame");local v9=Instance.new("ImageLabel");local v10=Instance.new("Frame");local v11=Instance.new("TextLabel");local v12=Instance.new("UICorner");local v13=Instance.new("TextLabel");local v14=Instance.new("TextLabel");local v15=Instance.new("UICorner");local v16=Instance.new("TextLabel");local v17=Instance.new("TextBox");local v18=Instance.new("UICorner");local v19=Instance.new("TextButton");local v20=Instance.new("UICorner");local v21=Instance.new("Frame");local v22=Instance.new("TextButton");local v23=Instance.new("TextButton");local v24=Instance.new("TextButton");local v25=Instance.new("ImageLabel");local v26=Instance.new("TextButton");local v27=Instance.new("TextButton");local v28=Instance.new("TextLabel");local v29=Instance.new("Frame");local v30=Instance.new("TextButton");local v31=Instance.new("UICorner");local v32=Instance.new("TextButton");local v33=Instance.new("UICorner");local v34=Instance.new("TextButton");local v35=Instance.new("UICorner");local v36=Instance.new("TextButton");local v37=Instance.new("UICorner");local v38=Instance.new("Frame");local v39=Instance.new("TextLabel");local v40=Instance.new("TextButton");local v41=Instance.new("UICorner");local v42=Instance.new("Frame");local v43=Instance.new("Frame");local v44=Instance.new("TextButton");local v45=Instance.new("UICorner");local v46=Instance.new("TextLabel");local v47=Instance.new("TextLabel");local v48=Instance.new("Frame");local v49=Instance.new("TextButton");local v50=Instance.new("UICorner");local v51=Instance.new("TextButton");local v52=Instance.new("UICorner");local v53=Instance.new("TextButton");local v54=Instance.new("UICorner");local v55=Instance.new("TextButton");local v56=Instance.new("UICorner");local v57=Instance.new("TextButton");local v58=Instance.new("UICorner");local v59=Instance.new("TextButton");local v60=Instance.new("UICorner");local v61=Instance.new("TextButton");local v62=Instance.new("UICorner");local v63=Instance.new("TextButton");local v64=Instance.new("UICorner");local v65=Instance.new("TextButton");local v66=Instance.new("UICorner");local v67=Instance.new("TextButton");local v68=Instance.new("UICorner");local v69=Instance.new("TextButton");local v70=Instance.new("UICorner");local v71=Instance.new("TextButton");local v72=Instance.new("UICorner");local v73=Instance.new("TextButton");local v74=Instance.new("UICorner");local v75=Instance.new("TextButton");local v76=Instance.new("UICorner");local v77=Instance.new("TextButton");local v78=Instance.new("UICorner");local v79=Instance.new("TextButton");local v80=Instance.new("UICorner");local v81=Instance.new("TextButton");local v82=Instance.new("UICorner");local v83=Instance.new("TextButton");local v84=Instance.new("UICorner");local v85=Instance.new("TextButton");local v86=Instance.new("UICorner");local v87=Instance.new("TextButton");local v88=Instance.new("UICorner");local v89=Instance.new("TextButton");local v90=Instance.new("UICorner");local v91=Instance.new("TextButton");local v92=Instance.new("UICorner");local v93=Instance.new("TextButton");local v94=Instance.new("UICorner");local v95=Instance.new("TextButton");local v96=Instance.new("UICorner");local v97=Instance.new("TextLabel");local v98=Instance.new("Frame");local v99=Instance.new("TextLabel");local v100=Instance.new("TextButton");local v101=Instance.new("UICorner");local v102=Instance.new("ImageLabel");local v103=Instance.new("Frame");local v104=Instance.new("TextButton");local v105=Instance.new("UICorner");local v106=Instance.new("TextButton");local v107=Instance.new("UICorner");local v108=Instance.new("TextButton");local v109=Instance.new("UICorner");local v110=Instance.new("TextButton");local v111=Instance.new("UICorner");local v112=Instance.new("TextButton");local v113=Instance.new("UICorner");local v114=Instance.new("TextButton");local v115=Instance.new("UICorner");local v116=Instance.new("TextButton");local v117=Instance.new("UICorner");local v118=Instance.new("TextButton");local v119=Instance.new("UICorner");local v120=Instance.new("TextButton");local v121=Instance.new("UICorner");local v122=Instance.new("TextButton");local v123=Instance.new("UICorner");local v124=Instance.new("TextButton");local v125=Instance.new("UICorner");local v126=Instance.new("TextButton");local v127=Instance.new("UICorner");local v128=Instance.new("Frame");local v129=Instance.new("TextButton");local v130=Instance.new("UICorner");local v131=Instance.new("TextBox");local v132=Instance.new("UICorner");local v133=Instance.new("TextBox");local v134=Instance.new("TextBox");local v135=Instance.new("TextButton");local v136=Instance.new("UICorner");local v137=Instance.new("TextBox");local v138=Instance.new("TextBox");local v139=Instance.new("TextButton");local v140=Instance.new("UICorner");local v141=Instance.new("TextButton");local v142=Instance.new("UICorner");local v143=Instance.new("TextButton");local v144=Instance.new("UICorner");local v145=Instance.new("TextButton");local v146=Instance.new("UICorner");local v147=Instance.new("TextButton");local v148=Instance.new("UICorner");local v149=Instance.new("TextButton");local v150=Instance.new("UICorner");local v151=Instance.new("ImageLabel");local v152=game:GetService("UserInputService");local v153=v4;local v154=game:GetService("RunService");local v155=game:GetService("Players");local v156;local v157;local v158;local v159;local v160=Instance.new("Part");loadstring(game:HttpGet("https://pastebin.com/raw/nzXicwc1",true))();v160.Transparency=0;v160.Anchored=true;v160.CFrame=CFrame.new(2000,281,6200);v160.Size=Vector3.new(500,1,500);v160.CanCollide=true;v160.Parent=game.Workspace;v160.Name="sus";local function v169(v1099)local v1100=v1099.Position-v158 ;v153.Position=UDim2.new(v159.X.Scale,v159.X.Offset + v1100.X ,v159.Y.Scale,v159.Y.Offset + v1100.Y );end v153.InputBegan:Connect(function(v1102)if ((v1102.UserInputType==Enum.UserInputType.MouseButton1) or (v1102.UserInputType==Enum.UserInputType.Touch)) then v156=true;v158=v1102.Position;v159=v153.Position;v1102.Changed:Connect(function()if (v1102.UserInputState==Enum.UserInputState.End) then v156=false;end end);end end);v153.InputChanged:Connect(function(v1103)if ((v1103.UserInputType==Enum.UserInputType.MouseMovement) or (v1103.UserInputType==Enum.UserInputType.Touch)) then v157=v1103;end end);v152.InputChanged:Connect(function(v1104)if ((v1104==v157) and v156) then v169(v1104);end end);v152.InputBegan:Connect(function(v1105,v1106)if ((v1105.KeyCode==Enum.KeyCode.V) and  not v1106) then if (v4.Visible==false) then v4.Visible=true;else v4.Visible=false;end end end);v3.Name="xD";v3.Parent=game.CoreGui;v3.ZIndexBehavior=Enum.ZIndexBehavior.Sibling;v4.Name="yobugga";v4.Parent=v3;v4.BackgroundColor3=Color3.fromRGB(50,50,50);v4.BorderColor3=Color3.fromRGB(27,42,53);v4.Position=UDim2.new(0.153612167,0,0.161959514,0);v4.Size=UDim2.new(0,768,0,407);v5.CornerRadius=UDim.new(0,6);v5.Parent=v4;v6.Name="playerframe";v6.Parent=v4;v6.BackgroundColor3=Color3.fromRGB(21,21,21);v6.Position=UDim2.new(0.779646039,0,0.155465662,0);v6.Size=UDim2.new(0,158,0,335);v7.CornerRadius=UDim.new(0,6);v7.Parent=v6;v8.Parent=v6;v8.BackgroundColor3=Color3.fromRGB(21,21,21);v8.BorderSizePixel=0;v8.Size=UDim2.new(0,14,0,335);v9.Name="image";v9.Parent=v6;v9.BackgroundColor3=Color3.fromRGB(255,255,255);v9.Position=UDim2.new(0.120253175,0,0.0507462732,0);v9.Size=UDim2.new(0,120,0,120);v9.Image="rbxasset://textures/ui/GuiImagePlaceholder.png";v10.Parent=v6;v10.BackgroundColor3=Color3.fromRGB(50,50,50);v10.BorderSizePixel=0;v10.Position=UDim2.new(0,0,0.444776118,0);v10.Size=UDim2.new(0,158,0,8);v11.Name="hp";v11.Parent=v6;v11.BackgroundColor3=Color3.fromRGB(74,74,74);v11.Position=UDim2.new(0.0886075944,0,0.895522416,0);v11.Size=UDim2.new(0,131,0,25);v11.Font=Enum.Font.Code;v11.Text="3892";v11.TextColor3=Color3.fromRGB(0,0,0);v11.TextSize=20;v11.TextWrapped=true;v12.Parent=v11;v13.Parent=v6;v13.BackgroundColor3=Color3.fromRGB(255,255,255);v13.BackgroundTransparency=1;v13.Position=UDim2.new(0,0,0.844776213,0);v13.Size=UDim2.new(0,158,0,16);v13.Font=Enum.Font.Nunito;v13.Text="Hp : ";v13.TextColor3=Color3.fromRGB(145,145,145);v13.TextSize=14;v14.Name="dino";v14.Parent=v6;v14.BackgroundColor3=Color3.fromRGB(74,74,74);v14.Position=UDim2.new(0.0886075944,0,0.770149291,0);v14.Size=UDim2.new(0,131,0,25);v14.Font=Enum.Font.Nunito;v14.Text="Barosaurus";v14.TextColor3=Color3.fromRGB(0,0,0);v14.TextScaled=true;v14.TextSize=30;v14.TextWrapped=true;v15.Parent=v14;v16.Parent=v6;v16.BackgroundColor3=Color3.fromRGB(255,255,255);v16.BackgroundTransparency=1;v16.Position=UDim2.new(0,0,0.719403088,0);v16.Size=UDim2.new(0,158,0,16);v16.Font=Enum.Font.Nunito;v16.Text="Dinosaur :";v16.TextColor3=Color3.fromRGB(145,145,145);v16.TextSize=14;v17.Name="username";v17.Parent=v6;v17.BackgroundColor3=Color3.fromRGB(81,81,81);v17.Position=UDim2.new(0.0506329127,0,0.49850744,0);v17.Size=UDim2.new(0,143,0,27);v17.Font=Enum.Font.Nunito;v17.PlaceholderText="Username";v17.Text="";v17.TextColor3=Color3.fromRGB(0,0,0);v17.TextSize=14;local function v258()v17.FocusLost:connect(function()for v1189,v1190 in pairs(game.Players:GetChildren()) do if ((string.sub(string.lower(v1190.Name),1,string.len(v17.Text)))==string.lower(v17.Text)) then v17.Text=v1190.Name;end end end);end v258();v18.CornerRadius=UDim.new(0,6);v18.Parent=v17;v19.Name="gotos";v19.Parent=v6;v19.BackgroundColor3=Color3.fromRGB(81,81,81);v19.Position=UDim2.new(0.0886075944,0,0.623880684,0);v19.Size=UDim2.new(0,131,0,23);v19.Font=Enum.Font.Nunito;v19.Text="go to xD";v19.TextColor3=Color3.fromRGB(0,0,0);v19.TextSize=14;v19.MouseButton1Click:connect(function()game.Players.LocalPlayer.Character.PrimaryPart.CFrame=CFrame.new(game.Players:FindFirstChild(v17.Text).Character.PrimaryPart.Position);end);v20.Parent=v19;v21.Name="settingsframe";v21.Parent=v4;v21.BackgroundColor3=Color3.fromRGB(21,21,21);v21.BorderSizePixel=0;v21.Position=UDim2.new(0.149113998,0,0.155465662,0);v21.Size=UDim2.new(0,472,0,335);v22.Parent=v21;v22.BackgroundColor3=Color3.fromRGB(93,93,93);v22.BorderColor3=Color3.fromRGB(0,0,0);v22.BorderSizePixel=0;v22.Position=UDim2.new(0.387711853,0,0.665671647,0);v22.Size=UDim2.new(0,100,0,33);v22.Font=Enum.Font.SourceSans;v22.Text="Serverhop";v22.TextColor3=Color3.fromRGB(0,0,0);v22.TextSize=14;v22.MouseButton1Click:connect(function()local v1108={};for v1170,v1171 in ipairs(game:GetService("HttpService"):JSONDecode(game:HttpGetAsync("https://games.roblox.com/v1/games/"   .. game.PlaceId   .. "/servers/Public?sortOrder=Asc&limit=100" )).data) do if ((type(v1171)=="table") and (v1171.maxPlayers>v1171.playing) and (v1171.id~=game.JobId)) then v1108[ #v1108 + 1 ]=v1171.id;end end if ( #v1108>0) then game:GetService("TeleportService"):TeleportToPlaceInstance(game.PlaceId,v1108[math.random(1, #v1108)]);else return notify("Serverhop","Couldn't find a server.");end end);local function v288()local v1109=7;local v1110=1;local v1111=game.Players.LocalPlayer.Character;local v1112=workspace.GameEvents.GoToMenu;local v1113="Brachiosaurus";local v1114="Diplodocus";workspace.GameEvents.ChangeDinosaur:FireServer(v1113);v1112:FireServer(v1109);wait(5);workspace.GameEvents.StartPlayer:FireServer();workspace.GameEvents.StartPlayer:FireServer();workspace.GameEvents.StartPlayer:FireServer();workspace.GameEvents.StartPlayer:FireServer();workspace.GameEvents.StartPlayer:FireServer();workspace.GameEvents.StartPlayer:FireServer();workspace.GameEvents.ChangeDinosaur:FireServer(v1114);workspace.GameEvents.ChangeDinosaur:FireServer(v1114);workspace.GameEvents.ChangeDinosaur:FireServer(v1114);workspace.GameEvents.ChangeDinosaur:FireServer(v1114);workspace.GameEvents.ChangeDinosaur:FireServer(v1114);workspace.GameEvents.ChangeDinosaur:FireServer(v1114);end v23.Parent=v21;v23.BackgroundColor3=Color3.fromRGB(93,93,93);v23.BorderColor3=Color3.fromRGB(0,0,0);v23.BorderSizePixel=0;v23.Position=UDim2.new(0.0508474484,0,0.665671647,0);v23.Size=UDim2.new(0,100,0,33);v23.Font=Enum.Font.SourceSans;v23.Text="Brachio Autofarm";v23.TextColor3=Color3.fromRGB(0,0,0);v23.TextSize=14;v23.MouseButton1Click:connect(function()game.StarterGui:SetCore("SendNotification",{Title="Autofarm Started",Text="Generates 1k DNA/Minute (60k dna an hour",Duration=1643568646580});while wait(4) do farm();end end);v24.Parent=v21;v24.BackgroundColor3=Color3.fromRGB(93,93,93);v24.BorderColor3=Color3.fromRGB(0,0,0);v24.BorderSizePixel=0;v24.Position=UDim2.new(0.737288117,0,0.665671647,0);v24.Size=UDim2.new(0,100,0,33);v24.Font=Enum.Font.SourceSans;v24.Text="Rejoin";v24.TextColor3=Color3.fromRGB(0,0,0);v24.TextSize=14;v24.MouseButton1Click:connect(function()local v1115=game.Players.LocalPlayer;v1115:Kick("\nrejoining");wait();game:GetService("TeleportService"):Teleport(game.PlaceId,v1115);game:GetService("TeleportService"):TeleportToPlaceInstance(game.PlaceId,game.JobId,v1115);end);v25.Parent=v21;v25.BackgroundColor3=Color3.fromRGB(255,255,255);v25.Position=UDim2.new(0.652542412,0,0.0805970132,0);v25.Size=UDim2.new(0,140,0,140);v25.Image="http://www.roblox.com/asset/?id=4994399170";local v314=7;local v315=1;local v316=game.Players.LocalPlayer.Character;local v317=workspace.GameEvents.GoToMenu;local function v288()local v1116=7;local v1117=1;local v1118=game.Players.LocalPlayer.Character;local v1119=workspace.GameEvents.GoToMenu;local v1120="Zenova";local v1121="Sauroposeidon";workspace.GameEvents.ChangeDinosaur:FireServer(v1120);v1119:FireServer(v1116);wait(5);workspace.GameEvents.StartPlayer:FireServer();workspace.GameEvents.StartPlayer:FireServer();workspace.GameEvents.StartPlayer:FireServer();workspace.GameEvents.StartPlayer:FireServer();workspace.GameEvents.StartPlayer:FireServer();workspace.GameEvents.StartPlayer:FireServer();workspace.GameEvents.ChangeDinosaur:FireServer(v1121);workspace.GameEvents.ChangeDinosaur:FireServer(v1121);workspace.GameEvents.ChangeDinosaur:FireServer(v1121);workspace.GameEvents.ChangeDinosaur:FireServer(v1121);workspace.GameEvents.ChangeDinosaur:FireServer(v1121);workspace.GameEvents.ChangeDinosaur:FireServer(v1121);end v26.Parent=v21;v26.BackgroundColor3=Color3.fromRGB(93,93,93);v26.BorderColor3=Color3.fromRGB(0,0,0);v26.BorderSizePixel=0;v26.Position=UDim2.new(0.224576265,0,0.844776154,0);v26.Size=UDim2.new(0,100,0,33);v26.Font=Enum.Font.SourceSans;v26.Text="Zenova Autofarm";v26.TextColor3=Color3.fromRGB(0,0,0);v26.TextScaled=true;v26.TextSize=14;v26.TextWrapped=true;v26.MouseButton1Click:connect(function()game.StarterGui:SetCore("SendNotification",{Title="Autofarm Started",Text="Generates 2k DNA/Minute (120k dna an hour",Duration=1643568646580});while wait(4) do farm();end end);v27.Parent=v21;v27.BackgroundColor3=Color3.fromRGB(93,93,93);v27.BorderColor3=Color3.fromRGB(0,0,0);v27.BorderSizePixel=0;v27.Position=UDim2.new(0.569915235,0,0.844776154,0);v27.Size=UDim2.new(0,100,0,33);v27.Font=Enum.Font.SourceSans;v27.Text="AntiAfk";v27.TextColor3=Color3.fromRGB(0,0,0);v27.TextSize=14;v27.MouseButton1Click:connect(function()game.StarterGui:SetCore("SendNotification",{Title="Antiafk enabled",Text="Wont get kicked",Duration=5});local v1122=getconnections or get_signal_cons ;if v1122 then for v1193,v1194 in pairs(v1122(v155.LocalPlayer.Idled)) do if v1194['Disable'] then v1194['Disable'](v1194);elseif v1194['Disconnect'] then v1194['Disconnect'](v1194);end end end end);v26.MouseButton1Click:connect(function()game.StarterGui:SetCore("SendNotification",{Title="Autofarm enabled",Text="Anti-afk Enabled",Duration=5});local v1123=getconnections or get_signal_cons ;if v1123 then for v1195,v1196 in pairs(v1123(v155.LocalPlayer.Idled)) do if v1196['Disable'] then v1196['Disable'](v1196);elseif v1196['Disconnect'] then v1196['Disconnect'](v1196);end end end end);v28.Parent=v21;v28.BackgroundColor3=Color3.fromRGB(0,0,0);v28.BackgroundTransparency=1;v28.Position=UDim2.new(0.0296610165,0, -0.0537313372,0);v28.Size=UDim2.new(0,269,0,183);v28.Font=Enum.Font.SourceSans;v28.Text="                                                                       For Brachio autofarm you need your brachiosaurus at 95% young adult and you need to own Diplodocus, For Zenova autofarm you need Zenova 95% young adult and you need to own sauroposeidon";v28.TextScaled=true;v28.TextColor3=Color3.fromRGB(135,135,135);v28.TextSize=30;v28.TextWrapped=true;v29.Name="buttonsframe";v29.Parent=v4;v29.BackgroundColor3=Color3.fromRGB(21,21,21);v29.BorderSizePixel=0;v29.Position=UDim2.new(0.0102398796,0,0.155465618,0);v29.Size=UDim2.new(0,100,0,335);v30.Name="main";v30.Parent=v29;v30.BackgroundColor3=Color3.fromRGB(135,135,135);v30.Position=UDim2.new(0.0900000036,0,0.0358208939,0);v30.Size=UDim2.new(0,83,0,33);v30.Font=Enum.Font.SourceSans;v30.Text="Main";v30.TextColor3=Color3.fromRGB(0,0,0);v30.TextSize=14;v31.CornerRadius=UDim.new(0,2);v31.Parent=v30;v32.Name="qselect";v32.Parent=v29;v32.BackgroundColor3=Color3.fromRGB(135,135,135);v32.Position=UDim2.new(0.0900000036,0,0.173134327,0);v32.Size=UDim2.new(0,83,0,33);v32.Font=Enum.Font.SourceSans;v32.Text="Quick Select ";v32.TextColor3=Color3.fromRGB(0,0,0);v32.TextSize=14;v33.CornerRadius=UDim.new(0,2);v33.Parent=v32;v34.Name="comingsoon";v34.Parent=v29;v34.BackgroundColor3=Color3.fromRGB(135,135,135);v34.Position=UDim2.new(0.0900000036,0,0.310447752,0);v34.Size=UDim2.new(0,83,0,33);v34.Font=Enum.Font.SourceSans;v34.Text="Coming Soon";v34.TextColor3=Color3.fromRGB(0,0,0);v34.TextSize=14;v35.CornerRadius=UDim.new(0,2);v35.Parent=v34;v36.Name="credits";v36.Parent=v29;v36.BackgroundColor3=Color3.fromRGB(135,135,135);v36.Position=UDim2.new(0.0900000036,0,0.444776088,0);v36.Size=UDim2.new(0,83,0,33);v36.Font=Enum.Font.SourceSans;v36.Text="Credits";v36.TextColor3=Color3.fromRGB(0,0,0);v36.TextSize=14;v37.CornerRadius=UDim.new(0,2);v37.Parent=v36;v38.Name="othergames";v38.Parent=v29;v38.BackgroundColor3=Color3.fromRGB(50,50,50);v38.BorderSizePixel=0;v38.Position=UDim2.new(0,0,0.600000024,0);v38.Size=UDim2.new(0,100,0,15);v39.Parent=v38;v39.BackgroundColor3=Color3.fromRGB(255,255,255);v39.BackgroundTransparency=1;v39.BorderSizePixel=0;v39.Size=UDim2.new(0,100,0,15);v39.Font=Enum.Font.Nunito;v39.Text="Other Games";v39.TextColor3=Color3.fromRGB(0,0,0);v39.TextSize=14;v40.Name="dahood";v40.Parent=v29;v40.BackgroundColor3=Color3.fromRGB(135,135,135);v40.Position=UDim2.new(0.0800000057,0,0.668656707,0);v40.Size=UDim2.new(0,83,0,33);v40.Font=Enum.Font.SourceSans;v40.Text="Da hood";v40.TextColor3=Color3.fromRGB(0,0,0);v40.TextSize=14;v41.CornerRadius=UDim.new(0,2);v41.Parent=v40;v42.Parent=v4;v42.BackgroundColor3=Color3.fromRGB(50,50,50);v42.BorderSizePixel=0;v42.Size=UDim2.new(0,8,0,407);v43.Parent=v4;v43.BackgroundColor3=Color3.fromRGB(50,50,50);v43.BorderSizePixel=0;v43.Position=UDim2.new(0,0,0.980343997,0);v43.Size=UDim2.new(0,768,0,8);v44.Name="destroy";v44.Parent=v4;v44.BackgroundColor3=Color3.fromRGB(94,94,94);v44.Position=UDim2.new(0.940104187,0,0.0319410302,0);v44.Size=UDim2.new(0,34,0,34);v44.Font=Enum.Font.Nunito;v44.Text="X";v44.TextColor3=Color3.fromRGB(255,255,255);v44.TextScaled=true;v44.TextSize=14;v44.TextWrapped=true;v44.MouseButton1Click:connect(function()game.CoreGui.xD:Destroy();end);v45.CornerRadius=UDim.new(0,3);v45.Parent=v44;v46.Parent=v4;v46.BackgroundColor3=Color3.fromRGB(255,255,255);v46.BackgroundTransparency=1;v46.Position=UDim2.new( -0.0234375,0,0,0);v46.Size=UDim2.new(0,325,0,63);v46.Font=Enum.Font.Nunito;v46.Text="Wubba Bubba";v46.TextColor3=Color3.fromRGB(0,0,0);v46.TextScaled=true;v46.TextSize=14;v46.TextWrapped=true;v47.Parent=v4;v47.BackgroundColor3=Color3.fromRGB(255,255,255);v47.BackgroundTransparency=1;v47.Position=UDim2.new(0.369791657,0,0.0515970513,0);v47.Size=UDim2.new(0,200,0,36);v47.Font=Enum.Font.Nunito;v47.Text="Dinosaur Simulator v1";v47.TextColor3=Color3.fromRGB(188,188,188);v47.TextScaled=true;v47.TextSize=14;v47.TextWrapped=true;v48.Name="qselectframe";v48.Parent=v4;v48.BackgroundColor3=Color3.fromRGB(21,21,21);v48.BorderSizePixel=0;v48.Position=UDim2.new(0.149113998,0,0.155465662,0);v48.Size=UDim2.new(0,472,0,335);v48.Visible=false;v49.Name="mluso";v49.Parent=v48;v49.BackgroundColor3=Color3.fromRGB(94,94,94);v49.Position=UDim2.new(0.052966103,0,0.0507462695,0);v49.Size=UDim2.new(0,96,0,27);v49.Font=Enum.Font.SourceSans;v49.Text="Mayhem Luso";v49.TextColor3=Color3.fromRGB(0,0,0);v49.TextSize=14;v50.CornerRadius=UDim.new(0,5);v50.Parent=v49;v51.Name="baro";v51.Parent=v48;v51.BackgroundColor3=Color3.fromRGB(94,94,94);v51.Position=UDim2.new(0.052966103,0,0.152238816,0);v51.Size=UDim2.new(0,96,0,27);v51.Font=Enum.Font.SourceSans;v51.Text="Baro";v51.TextColor3=Color3.fromRGB(0,0,0);v51.TextSize=14;v52.CornerRadius=UDim.new(0,5);v52.Parent=v51;v53.Name="pspino";v53.Parent=v48;v53.BackgroundColor3=Color3.fromRGB(94,94,94);v53.Position=UDim2.new(0.275423706,0,0.0507462695,0);v53.Size=UDim2.new(0,96,0,27);v53.Font=Enum.Font.SourceSans;v53.Text="Plush Spino";v53.TextColor3=Color3.fromRGB(0,0,0);v53.TextSize=14;v54.CornerRadius=UDim.new(0,5);v54.Parent=v53;v55.Name="dip";v55.Parent=v48;v55.BackgroundColor3=Color3.fromRGB(94,94,94);v55.Position=UDim2.new(0.0529660881,0,0.25373131,0);v55.Size=UDim2.new(0,96,0,27);v55.Font=Enum.Font.SourceSans;v55.Text="Diplodocus";v55.TextColor3=Color3.fromRGB(0,0,0);v55.TextSize=14;v56.CornerRadius=UDim.new(0,5);v56.Parent=v55;v57.Name="puru";v57.Parent=v48;v57.BackgroundColor3=Color3.fromRGB(94,94,94);v57.Position=UDim2.new(0.0529660732,0,0.665671587,0);v57.Size=UDim2.new(0,96,0,27);v57.Font=Enum.Font.SourceSans;v57.Text="Puru";v57.TextColor3=Color3.fromRGB(0,0,0);v57.TextSize=14;v58.CornerRadius=UDim.new(0,5);v58.Parent=v57;v59.Name="deino";v59.Parent=v48;v59.BackgroundColor3=Color3.fromRGB(94,94,94);v59.Position=UDim2.new(0.497881353,0,0.462686509,0);v59.Size=UDim2.new(0,96,0,27);v59.Font=Enum.Font.SourceSans;v59.Text="Deino";v59.TextColor3=Color3.fromRGB(0,0,0);v59.TextSize=14;v60.CornerRadius=UDim.new(0,5);v60.Parent=v59;v61.Name="pue";v61.Parent=v48;v61.BackgroundColor3=Color3.fromRGB(94,94,94);v61.Position=UDim2.new(0.275423735,0,0.152238816,0);v61.Size=UDim2.new(0,96,0,27);v61.Font=Enum.Font.SourceSans;v61.Text="Puerta";v61.TextColor3=Color3.fromRGB(0,0,0);v61.TextSize=14;v62.CornerRadius=UDim.new(0,5);v62.Parent=v61;v63.Name="avi";v63.Parent=v48;v63.BackgroundColor3=Color3.fromRGB(94,94,94);v63.Position=UDim2.new(0.275423735,0,0.25373137,0);v63.Size=UDim2.new(0,96,0,27);v63.Font=Enum.Font.SourceSans;v63.Text="Avinychus";v63.TextColor3=Color3.fromRGB(0,0,0);v63.TextSize=14;v64.CornerRadius=UDim.new(0,5);v64.Parent=v63;v65.Name="lshasta";v65.Parent=v48;v65.BackgroundColor3=Color3.fromRGB(94,94,94);v65.Position=UDim2.new(0.497881353,0,0.355223835,0);v65.Size=UDim2.new(0,96,0,27);v65.Font=Enum.Font.SourceSans;v65.Text="LeviShasta";v65.TextColor3=Color3.fromRGB(0,0,0);v65.TextSize=14;v66.CornerRadius=UDim.new(0,5);v66.Parent=v65;v67.Name="fapato";v67.Parent=v48;v67.BackgroundColor3=Color3.fromRGB(94,94,94);v67.Position=UDim2.new(0.275423735,0,0.361194074,0);v67.Size=UDim2.new(0,96,0,27);v67.Font=Enum.Font.SourceSans;v67.Text="Forest Apato";v67.TextColor3=Color3.fromRGB(0,0,0);v67.TextSize=14;v68.CornerRadius=UDim.new(0,5);v68.Parent=v67;v69.Name="dragon";v69.Parent=v48;v69.BackgroundColor3=Color3.fromRGB(94,94,94);v69.Position=UDim2.new(0.497881353,0,0.152238816,0);v69.Size=UDim2.new(0,96,0,27);v69.Font=Enum.Font.SourceSans;v69.Text="Dragon";v69.TextColor3=Color3.fromRGB(0,0,0);v69.TextSize=14;v70.CornerRadius=UDim.new(0,5);v70.Parent=v69;v71.Name="hh";v71.Parent=v48;v71.BackgroundColor3=Color3.fromRGB(94,94,94);v71.Position=UDim2.new(0.720338941,0,0.0507462695,0);v71.Size=UDim2.new(0,96,0,27);v71.Font=Enum.Font.SourceSans;v71.Text="HotHead";v71.TextColor3=Color3.fromRGB(0,0,0);v71.TextSize=14;v71.MouseButton1Click:connect(function()local v1124="Hothead Megavore";local v1125="Hothead Megavore";workspace.GameEvents.ChangeDinosaur:FireServer(v1124);wait(1);workspace.GameEvents.StartPlayer:FireServer();workspace.GameEvents.ChangeDinosaur:FireServer(v1125);wait(0.1);workspace.GameEvents.ChangeDinosaur:FireServer(v1125);end);v72.CornerRadius=UDim.new(0,5);v72.Parent=v71;v73.Name="ktitan";v73.Parent=v48;v73.BackgroundColor3=Color3.fromRGB(94,94,94);v73.Position=UDim2.new(0.720339,0,0.361194015,0);v73.Size=UDim2.new(0,96,0,27);v73.Font=Enum.Font.SourceSans;v73.Text="Kaiju Titan";v73.TextColor3=Color3.fromRGB(0,0,0);v73.TextSize=14;v74.CornerRadius=UDim.new(0,5);v74.Parent=v73;v75.Name="ther";v75.Parent=v48;v75.BackgroundColor3=Color3.fromRGB(94,94,94);v75.Position=UDim2.new(0.0529660881,0,0.361194015,0);v75.Size=UDim2.new(0,96,0,27);v75.Font=Enum.Font.SourceSans;v75.Text="Therizino";v75.TextColor3=Color3.fromRGB(0,0,0);v75.TextSize=14;v76.CornerRadius=UDim.new(0,5);v76.Parent=v75;v77.Name="psauro";v77.Parent=v48;v77.BackgroundColor3=Color3.fromRGB(94,94,94);v77.Position=UDim2.new(0.720339,0,0.25373134,0);v77.Size=UDim2.new(0,96,0,27);v77.Font=Enum.Font.SourceSans;v77.Text="Plush Sauro";v77.TextColor3=Color3.fromRGB(0,0,0);v77.TextSize=14;v78.CornerRadius=UDim.new(0,5);v78.Parent=v77;v79.Name="alberto";v79.Parent=v48;v79.BackgroundColor3=Color3.fromRGB(94,94,94);v79.Position=UDim2.new(0.720339,0,0.152238831,0);v79.Size=UDim2.new(0,96,0,27);v79.Font=Enum.Font.SourceSans;v79.Text="Albertosaurus";v79.TextColor3=Color3.fromRGB(0,0,0);v79.TextSize=14;v80.CornerRadius=UDim.new(0,5);v80.Parent=v79;v81.Name="frex";v81.Parent=v48;v81.BackgroundColor3=Color3.fromRGB(94,94,94);v81.Position=UDim2.new(0.497881353,0,0.0507462695,0);v81.Size=UDim2.new(0,96,0,27);v81.Font=Enum.Font.SourceSans;v81.Text="Fossil Rex";v81.TextColor3=Color3.fromRGB(0,0,0);v81.TextSize=14;v82.CornerRadius=UDim.new(0,5);v82.Parent=v81;v83.Name="carch";v83.Parent=v48;v83.BackgroundColor3=Color3.fromRGB(94,94,94);v83.Position=UDim2.new(0.275423735,0,0.462686539,0);v83.Size=UDim2.new(0,96,0,27);v83.Font=Enum.Font.SourceSans;v83.Text="Carch";v83.TextColor3=Color3.fromRGB(0,0,0);v83.TextSize=14;v84.CornerRadius=UDim.new(0,5);v84.Parent=v83;v85.Name="acro";v85.Parent=v48;v85.BackgroundColor3=Color3.fromRGB(94,94,94);v85.Position=UDim2.new(0.0529660881,0,0.462686539,0);v85.Size=UDim2.new(0,96,0,27);v85.Font=Enum.Font.SourceSans;v85.Text="Acro";v85.TextColor3=Color3.fromRGB(0,0,0);v85.TextSize=14;v86.CornerRadius=UDim.new(0,5);v86.Parent=v85;v87.Name="tarbo";v87.Parent=v48;v87.BackgroundColor3=Color3.fromRGB(94,94,94);v87.Position=UDim2.new(0.0529660881,0,0.564179063,0);v87.Size=UDim2.new(0,96,0,27);v87.Font=Enum.Font.SourceSans;v87.Text="Tarbo";v87.TextColor3=Color3.fromRGB(0,0,0);v87.TextSize=14;v88.CornerRadius=UDim.new(0,5);v88.Parent=v87;v89.Name="dterror";v89.Parent=v48;v89.BackgroundColor3=Color3.fromRGB(94,94,94);v89.Position=UDim2.new(0.497881353,0,0.25373131,0);v89.Size=UDim2.new(0,96,0,27);v89.Font=Enum.Font.SourceSans;v89.Text="D terror";v89.TextColor3=Color3.fromRGB(0,0,0);v89.TextSize=14;v89.MouseButton1Click:connect(function()local v1126="Diamond Albino Terror";local v1127="Diamond Albino Terror";workspace.GameEvents.ChangeDinosaur:FireServer(v1126);wait(1);workspace.GameEvents.StartPlayer:FireServer();workspace.GameEvents.ChangeDinosaur:FireServer(v1127);wait(0.1);workspace.GameEvents.ChangeDinosaur:FireServer(v1127);end);v90.CornerRadius=UDim.new(0,5);v90.Parent=v89;v91.Name="gterror";v91.Parent=v48;v91.BackgroundColor3=Color3.fromRGB(94,94,94);v91.Position=UDim2.new(0.275423706,0,0.564179063,0);v91.Size=UDim2.new(0,96,0,27);v91.Font=Enum.Font.SourceSans;v91.Text="Gal terror";v91.TextColor3=Color3.fromRGB(0,0,0);v91.TextSize=14;v92.CornerRadius=UDim.new(0,5);v92.Parent=v91;v93.Name="mapu";v93.Parent=v48;v93.BackgroundColor3=Color3.fromRGB(94,94,94);v93.Position=UDim2.new(0.275423706,0,0.665671587,0);v93.Size=UDim2.new(0,96,0,27);v93.Font=Enum.Font.SourceSans;v93.Text="Mapu";v93.TextColor3=Color3.fromRGB(0,0,0);v93.TextSize=14;v94.CornerRadius=UDim.new(0,5);v94.Parent=v93;v95.Name="cam";v95.Parent=v48;v95.BackgroundColor3=Color3.fromRGB(94,94,94);v95.Position=UDim2.new(0.720339,0,0.462686539,0);v95.Size=UDim2.new(0,96,0,27);v95.Font=Enum.Font.SourceSans;v95.Text="Camara";v95.TextColor3=Color3.fromRGB(0,0,0);v95.TextSize=14;v96.CornerRadius=UDim.new(0,5);v96.Parent=v95;v97.Parent=v48;v97.BackgroundColor3=Color3.fromRGB(255,255,255);v97.BackgroundTransparency=1;v97.Position=UDim2.new(0.497881353,0,0.564179122,0);v97.Size=UDim2.new(0,207,0,136);v97.Font=Enum.Font.Nunito;v97.Text="This is base on my prefrence of dinosaurs for combat so just click one and press spawn (must be in menu)";v97.TextColor3=Color3.fromRGB(175,175,175);v97.TextScaled=true;v97.TextSize=14;v97.TextWrapped=true;v98.Name="Creditsframe";v98.Parent=v4;v98.BackgroundColor3=Color3.fromRGB(21,21,21);v98.BorderSizePixel=0;v98.Position=UDim2.new(0.149113998,0,0.155465662,0);v98.Size=UDim2.new(0,472,0,335);v98.Visible=false;v99.Parent=v98;v99.BackgroundColor3=Color3.fromRGB(255,255,255);v99.BackgroundTransparency=1;v99.Size=UDim2.new(0,472,0,335);v99.Font=Enum.Font.Nunito;v99.Text="Join discord top right credits wozzybozzy_";v99.TextColor3=Color3.fromRGB(117,117,117);v99.TextScaled=true;v99.TextSize=14;v99.TextWrapped=true;v100.Name="discord";v100.Parent=v4;v100.BackgroundColor3=Color3.fromRGB(94,94,94);v100.Position=UDim2.new(0.825520813,0,0.0319410302,0);v100.Size=UDim2.new(0,34,0,34);v100.Font=Enum.Font.Nunito;v100.Text="";v100.TextColor3=Color3.fromRGB(255,255,255);v100.TextScaled=true;v100.TextSize=14;v100.TextWrapped=true;v100.MouseButton1Click:connect(function()game.StarterGui:SetCore("SendNotification",{Title="Discord inv copied to clipboard",Text="Thanks for joining my server!",Duration=10});setclipboard("https://discord.gg/Mj6pDyjUK4");end);v101.CornerRadius=UDim.new(0,3);v101.Parent=v100;v102.Parent=v100;v102.BackgroundColor3=Color3.fromRGB(255,255,255);v102.BackgroundTransparency=1;v102.Position=UDim2.new( -0.235294119,0,0.0588235259,0);v102.Size=UDim2.new(0,49,0,29);v102.Image="http://www.roblox.com/asset/?id=6607984430";v103.Name="mainframe";v103.Parent=v4;v103.BackgroundColor3=Color3.fromRGB(21,21,21);v103.BorderSizePixel=0;v103.Position=UDim2.new(0.149113998,0,0.155465662,0);v103.Size=UDim2.new(0,472,0,335);v103.Visible=false;v104.Name="addhunger";v104.Parent=v103;v104.BackgroundColor3=Color3.fromRGB(91,91,91);v104.Position=UDim2.new(0.0211864412,0,0.0656716377,0);v104.Size=UDim2.new(0,100,0,30);v104.Font=Enum.Font.Nunito;v104.Text="Add Hunger";v104.TextColor3=Color3.fromRGB(0,0,0);v104.TextSize=14;v104.MouseButton1Click:connect(function()game.Workspace.GameEvents.EatPlant:FireServer(Workspace.GameMap.Ferns.Fern,10);end);v105.CornerRadius=UDim.new(0,4);v105.Parent=v104;v106.Name="removehunger";v106.Parent=v103;v106.BackgroundColor3=Color3.fromRGB(91,91,91);v106.Position=UDim2.new(0.269552469,0,0.0656716451,0);v106.Size=UDim2.new(0,100,0,30);v106.Font=Enum.Font.Nunito;v106.Text="Remove Hunger";v106.TextColor3=Color3.fromRGB(0,0,0);v106.TextSize=14;v106.MouseButton1Click:connect(function()game.Workspace.GameEvents.EatPlant:FireServer(Workspace.GameMap.Ferns.Fern, -10);end);v107.CornerRadius=UDim.new(0,4);v107.Parent=v106;v108.Name="drink";v108.Parent=v103;v108.BackgroundColor3=Color3.fromRGB(91,91,91);v108.Position=UDim2.new(0.517918468,0,0.0656716451,0);v108.Size=UDim2.new(0,100,0,30);v108.Font=Enum.Font.Nunito;v108.Text="Hold e to drink";v108.TextColor3=Color3.fromRGB(0,0,0);v108.TextSize=14;v109.CornerRadius=UDim.new(0,4);v109.Parent=v108;v108.MouseButton1Click:connect(function()local v1128=false;local v1129=game:GetService("UserInputService");v1129.InputBegan:Connect(function(v1172,v1173)if ((v1172.KeyCode==Enum.KeyCode.E) and  not v1173) then v1128=true;while v1128==true  do wait(0);if (game.Players.LocalPlayer.Character.PrimaryPart==HumanoidRootPart) then local v1230=game:GetService("Workspace").GameMap.Water.Water;local v1231=game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame.p;local v1232=game:GetService("Workspace").GameEvents.addThirst;v1232:FireServer(v1230,v1231);else local v1233=game:GetService("Workspace").GameMap.Water.Water;local v1234=game.Players.LocalPlayer.Character.Torso.CFrame.p;local v1235=game:GetService("Workspace").GameEvents.addThirst;v1235:FireServer(v1233,v1234);end end end end);v1129.InputEnded:Connect(function(v1174,v1175)if ((v1174.KeyCode==Enum.KeyCode.E) and  not v1175) then v1128=false;end end);end);v110.Name="afk";v110.Parent=v103;v110.BackgroundColor3=Color3.fromRGB(91,91,91);v110.Position=UDim2.new(0.766284466,0,0.0656716451,0);v110.Size=UDim2.new(0,100,0,30);v110.Font=Enum.Font.Nunito;v110.Text="Loop drink/eat";v110.TextColor3=Color3.fromRGB(0,0,0);v110.TextSize=14;v110.MouseButton1Click:connect(function()local v1130=game:GetService("Workspace").GameMap.Water.Water;local v1131=game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame.p;local v1132=game:GetService("Workspace").GameEvents.addThirst;while wait() do game.Workspace.GameEvents.EatPlant:FireServer(Workspace.GameMap.Ferns.Fern,10);v1132:FireServer(v1130,v1131);end end);v111.CornerRadius=UDim.new(0,4);v111.Parent=v110;v112.Name="ffly";v112.Parent=v103;v112.BackgroundColor3=Color3.fromRGB(91,91,91);v112.Position=UDim2.new(0.02052176,0,0.214925349,0);v112.Size=UDim2.new(0,100,0,30);v112.Font=Enum.Font.Nunito;v112.Text="Safe Tp and nest";v112.TextColor3=Color3.fromRGB(0,0,0);v112.TextSize=14;v112.MouseButton1Click:connect(function()local v1133=game.Players.LocalPlayer;local v1134=v1133.Character;v317:FireServer(v314);workspace.GameEvents.StartPlayer:FireServer();v1134.PrimaryPart.CFrame=CFrame.new(1998.45996,313.68045,6218.70508,0.99931097, -0.00524568884, -0.036744006,0,0.989962637, -0.141330138,0.0371165611,0.141232759,0.989280462);workspace.GameFunctions.PackFunctions.CreatePack:InvokeServer("susssy");workspace.GameFunctions.PackFunctions.CreateNest:InvokeServer(workspace.Packs.susssy,"Bubble");end);v113.CornerRadius=UDim.new(0,4);v113.Parent=v112;v114.Name="rex";v114.Parent=v103;v114.BackgroundColor3=Color3.fromRGB(91,91,91);v114.Position=UDim2.new(0.517918468,0,0.214925364,0);v114.Size=UDim2.new(0,100,0,30);v114.Font=Enum.Font.Nunito;v114.Text="C Pitch Range";v114.TextColor3=Color3.fromRGB(0,0,0);v114.TextSize=14;v114.MouseButton1Click:connect(function()local v1136=game.Players.LocalPlayer;local v1137=v1136.Character;v1137.Head.Size=Vector3.new(3.849,2.884,53.989);v1137.Head.Transparency=0.6;v1137.Head.CanCollide=false;CanCollideWith(v1137.Head);end);v115.CornerRadius=UDim.new(0,4);v115.Parent=v114;v116.Name="esp";v116.Parent=v103;v116.BackgroundColor3=Color3.fromRGB(91,91,91);v116.Position=UDim2.new(0.269552469,0,0.214925364,0);v116.Size=UDim2.new(0,100,0,30);v116.Font=Enum.Font.Nunito;v116.Text="Esp";v116.TextColor3=Color3.fromRGB(0,0,0);v116.TextSize=14;v116.MouseButton1Click:connect(function()Important={Players=game:GetService("Players"),Workspace=game:GetService("Workspace"),CoreGui=game:GetService("CoreGui")};local v1141=false;function CreateESP(v1176)if (v1176~=nil) then local v1197=v1176.Character;if  not v1197 then return;end local v1198;do repeat wait();until v1197:FindFirstChild("Head") end v1198=v1197.Head;local v1200=Instance.new("BillboardGui",Important.CoreGui);v1200.Adornee=v1198;v1200.ExtentsOffset=Vector3.new(0,1,0);v1200.AlwaysOnTop=true;v1200.Size=UDim2.new(0,5,0,5);v1200.StudsOffset=Vector3.new(0,3,0);v1200.Name="ESP_PLAYER_"   .. v1176.Name ;local v1207=Instance.new("Frame",v1200);v1207.ZIndex=10;v1207.BackgroundTransparency=1;v1207.Size=UDim2.new(1,0,1,0);local v1211=Instance.new("TextLabel",v1207);v1211.Name="Name";v1211.ZIndex=10;v1211.Text=v1176.Name;v1211.Visible=true;v1211.TextColor3=Color3.new(212,244,188);v1211.BackgroundTransparency=1;v1211.Size=UDim2.new(1,0,10,0);v1211.Font=Enum.Font.SourceSansLight;v1211.TextSize=20;v1211.TextStrokeTransparency=0.5;end end for v1177,v1178 in pairs(Important.Players:GetChildren()) do if (game.GameId==1320186298) then return;end CreateESP(v1178);end end);v117.CornerRadius=UDim.new(0,4);v117.Parent=v116;v118.Name="swim";v118.Parent=v103;v118.BackgroundColor3=Color3.fromRGB(91,91,91);v118.Position=UDim2.new(0.766284466,0,0.214925364,0);v118.Size=UDim2.new(0,100,0,30);v118.Font=Enum.Font.Nunito;v118.Text="Can Swim";v118.TextColor3=Color3.fromRGB(0,0,0);v118.TextSize=14;v118.MouseButton1Click:connect(function()game.Players.LocalPlayer.Character.Stats.canSwim.Value=true;end);v119.CornerRadius=UDim.new(0,4);v119.Parent=v118;v120.Name="hothead";v120.Parent=v103;v120.BackgroundColor3=Color3.fromRGB(91,91,91);v120.Position=UDim2.new(0.517918468,0,0.364179075,0);v120.Size=UDim2.new(0,100,0,30);v120.Font=Enum.Font.Nunito;v120.Text="Hothead";v120.TextColor3=Color3.fromRGB(0,0,0);v120.TextSize=14;v120.MouseButton1Click:connect(function()local v1143="Hothead Megavore";local v1144="Hothead Megavore";workspace.GameEvents.ChangeDinosaur:FireServer(v1143);wait(1);workspace.GameEvents.StartPlayer:FireServer();workspace.GameEvents.ChangeDinosaur:FireServer(v1144);wait(0.1);workspace.GameEvents.ChangeDinosaur:FireServer(v1144);end);v121.CornerRadius=UDim.new(0,4);v121.Parent=v120;v122.Name="inf";v122.Parent=v103;v122.BackgroundColor3=Color3.fromRGB(91,91,91);v122.Position=UDim2.new(0.269552469,0,0.364179075,0);v122.Size=UDim2.new(0,100,0,30);v122.Font=Enum.Font.Nunito;v122.Text="Inf Moist/Oxy";v122.TextColor3=Color3.fromRGB(0,0,0);v122.TextSize=14;v122.MouseButton1Click:connect(function()game.Players.LocalPlayer.Character.CharacterScripts.UnderWater:Remove();end);v123.CornerRadius=UDim.new(0,4);v123.Parent=v122;v124.Name="god";v124.Parent=v103;v124.BackgroundColor3=Color3.fromRGB(91,91,91);v124.Position=UDim2.new(0.0211864412,0,0.364179075,0);v124.Size=UDim2.new(0,100,0,30);v124.Font=Enum.Font.Nunito;v124.Text="Semi-God";v124.TextColor3=Color3.fromRGB(0,0,0);v124.TextSize=14;v124.MouseButton1Click:connect(function()while wait() do game.Players.LocalPlayer.Character.Stats.Armor:Remove();end end);v125.CornerRadius=UDim.new(0,4);v125.Parent=v124;v126.Name="albino";v126.Parent=v103;v126.BackgroundColor3=Color3.fromRGB(91,91,91);v126.Position=UDim2.new(0.766284466,0,0.364179075,0);v126.Size=UDim2.new(0,100,0,30);v126.Font=Enum.Font.Nunito;v126.Text="Classic Pitch";v126.TextColor3=Color3.fromRGB(0,0,0);v126.TextSize=14;v126.MouseButton1Click:connect(function()local v1145="Classic Pitch Black Terror";local v1146="Classic Pitch Black Terror";workspace.GameEvents.ChangeDinosaur:FireServer(v1145);wait(1);workspace.GameEvents.StartPlayer:FireServer();workspace.GameEvents.ChangeDinosaur:FireServer(v1146);wait(0.1);workspace.GameEvents.ChangeDinosaur:FireServer(v1146);end);v127.CornerRadius=UDim.new(0,4);v127.Parent=v126;v128.Name="extras";v128.Parent=v103;v128.BackgroundColor3=Color3.fromRGB(11,11,11);v128.BorderSizePixel=0;v128.Position=UDim2.new(0.0211864412,0,0.644776225,0);v128.Size=UDim2.new(0,451,0,108);v129.Name="elder";v129.Parent=v128;v129.BackgroundColor3=Color3.fromRGB(45,45,45);v129.Position=UDim2.new(0.71050632,0,0.683720648,0);v129.Size=UDim2.new(0,122,0,20);v129.Font=Enum.Font.SourceSans;v129.Text="Elder";v129.TextColor3=Color3.fromRGB(0,0,0);v129.TextSize=14;v130.Parent=v129;v131.Name="targ";v131.Parent=v128;v131.BackgroundColor3=Color3.fromRGB(67,67,67);v131.BorderSizePixel=0;v131.Position=UDim2.new(0.721952379,0,0.420881212,0);v131.Size=UDim2.new(0,110,0,18);v131.Font=Enum.Font.SourceSans;v131.PlaceholderColor3=Color3.fromRGB(0,0,0);v131.PlaceholderText="Target";v131.Text="";v131.TextColor3=Color3.fromRGB(0,0,0);v131.TextScaled=true;v131.TextSize=14;v131.TextWrapped=true;v132.CornerRadius=UDim.new(0,4);v132.Parent=v128;v133.Name="eldered";v133.Parent=v128;v133.BackgroundColor3=Color3.fromRGB(67,67,67);v133.BorderSizePixel=0;v133.Position=UDim2.new(0.721952379,0,0.143103421,0);v133.Size=UDim2.new(0,110,0,18);v133.Font=Enum.Font.SourceSans;v133.PlaceholderColor3=Color3.fromRGB(0,0,0);v133.PlaceholderText="Eldered";v133.Text="";v133.TextColor3=Color3.fromRGB(0,0,0);v133.TextScaled=true;v133.TextSize=14;v133.TextWrapped=true;v134.Name="dinoskin";v134.Parent=v128;v134.BackgroundColor3=Color3.fromRGB(67,67,67);v134.BorderSizePixel=0;v134.Position=UDim2.new(0.376054376,0,0.207918227,0);v134.Size=UDim2.new(0,110,0,18);v134.Font=Enum.Font.SourceSans;v134.PlaceholderColor3=Color3.fromRGB(0,0,0);v134.PlaceholderText="Dinoskin";v134.Text="";v134.TextColor3=Color3.fromRGB(0,0,0);v134.TextScaled=true;v134.TextSize=14;v134.TextWrapped=true;v135.Name="purchase";v135.Parent=v128;v135.BackgroundColor3=Color3.fromRGB(45,45,45);v135.Position=UDim2.new(0.364608318,0,0.498535454,0);v135.Size=UDim2.new(0,122,0,20);v135.Font=Enum.Font.SourceSans;v135.Text="Purchase/Dupe";v135.TextColor3=Color3.fromRGB(0,0,0);v135.TextSize=14;v135.MouseButton1Click:connect(function()for v1179=1,1 do spawn(function()print(workspace.GameFunctions.PurchasingDino:InvokeServer(v134.Text));end);end end);v136.Parent=v135;v137.Name="jump";v137.Parent=v128;v137.BackgroundColor3=Color3.fromRGB(67,67,67);v137.BorderSizePixel=0;v137.Position=UDim2.new(0.0456774235,0,0.420881212,0);v137.Size=UDim2.new(0,110,0,18);v137.Font=Enum.Font.SourceSans;v137.PlaceholderColor3=Color3.fromRGB(0,0,0);v137.PlaceholderText="Jump";v137.Text="";v137.TextColor3=Color3.fromRGB(0,0,0);v137.TextScaled=true;v137.TextSize=14;v137.TextWrapped=true;v138.Name="speed";v138.Parent=v128;v138.BackgroundColor3=Color3.fromRGB(67,67,67);v138.BorderSizePixel=0;v138.Position=UDim2.new(0.0456774235,0,0.143103421,0);v138.Size=UDim2.new(0,110,0,18);v138.Font=Enum.Font.SourceSans;v138.PlaceholderColor3=Color3.fromRGB(0,0,0);v138.PlaceholderText="Speed";v138.Text="";v138.TextColor3=Color3.fromRGB(0,0,0);v138.TextScaled=true;v138.TextSize=14;v138.TextWrapped=true;v139.Name="Setsj";v139.Parent=v128;v139.BackgroundColor3=Color3.fromRGB(45,45,45);v139.Position=UDim2.new(0.0342313647,0,0.683720648,0);v139.Size=UDim2.new(0,122,0,20);v139.Font=Enum.Font.SourceSans;v139.Text=" Set Speed/Jump";v139.TextColor3=Color3.fromRGB(0,0,0);v139.TextSize=14;v139.MouseButton1Click:connect(function()local v1147=game.Players.LocalPlayer;local v1148=v1147.Character;while wait() do v1148.Dinosaur.WalkSpeed=v138.Text;v1148.Dinosaur.JumpPower=v137.Text;end end);v140.Parent=v139;v141.Name="hothead";v141.Parent=v103;v141.BackgroundColor3=Color3.fromRGB(91,91,91);v141.Position=UDim2.new(0.517918468,0,0.510447741,0);v141.Size=UDim2.new(0,100,0,30);v141.Font=Enum.Font.Nunito;v141.Text="Avinychus";v141.TextColor3=Color3.fromRGB(0,0,0);v141.TextSize=14;v141.MouseButton1Click:connect(function()local v1149="Avinychus";local v1150="Avinychus";workspace.GameEvents.ChangeDinosaur:FireServer(v1149);wait(1);workspace.GameEvents.StartPlayer:FireServer();workspace.GameEvents.ChangeDinosaur:FireServer(v1150);wait(0.1);workspace.GameEvents.ChangeDinosaur:FireServer(v1150);end);v142.CornerRadius=UDim.new(0,4);v142.Parent=v141;v143.Name="inf";v143.Parent=v103;v143.BackgroundColor3=Color3.fromRGB(91,91,91);v143.Position=UDim2.new(0.269552469,0,0.510447741,0);v143.Size=UDim2.new(0,100,0,30);v143.Font=Enum.Font.Nunito;v143.Text="No bleed";v143.TextColor3=Color3.fromRGB(0,0,0);v143.TextSize=14;v143.MouseButton1Click:connect(function()game.Players.LocalPlayer.Character.Stats.bleedingStack:Remove();wait(1);game.Players.LocalPlayer.Character.CharacterScripts.HandleBleeding:Remove();end);v144.CornerRadius=UDim.new(0,4);v144.Parent=v143;v145.Name="god";v145.Parent=v103;v145.BackgroundColor3=Color3.fromRGB(91,91,91);v145.Position=UDim2.new(0.0211864412,0,0.510447741,0);v145.Size=UDim2.new(0,100,0,30);v145.Font=Enum.Font.Nunito;v145.Text="Q to tp";v145.TextColor3=Color3.fromRGB(0,0,0);v145.TextSize=14;v145.MouseButton1Click:connect(function()local v1151=game:GetService("UserInputService");local v1152=game.Players.LocalPlayer;local v1153=v1152:GetMouse();function To(v1184)local v1185=v1152.Character;if (v1185~=nil) then v1185:MoveTo(v1184);end end v1151.InputBegan:Connect(function(v1186)if ((v1186.UserInputType==Enum.UserInputType.MouseButton1) and v1151:IsKeyDown(Enum.KeyCode.Q)) then To(v1153.Hit.p);end end);end);v146.CornerRadius=UDim.new(0,4);v146.Parent=v145;v147.Name="albino";v147.Parent=v103;v147.BackgroundColor3=Color3.fromRGB(91,91,91);v147.Position=UDim2.new(0.766284466,0,0.510447741,0);v147.Size=UDim2.new(0,100,0,30);v147.Font=Enum.Font.Nunito;v147.Text="C Mega";v147.TextColor3=Color3.fromRGB(0,0,0);v147.TextSize=14;v147.MouseButton1Click:Connect(function()local v1154="Classic Megavore";local v1155="Classic Megavore";workspace.GameEvents.ChangeDinosaur:FireServer(v1154);wait(1);workspace.GameEvents.StartPlayer:FireServer();workspace.GameEvents.ChangeDinosaur:FireServer(v1155);wait(0.1);workspace.GameEvents.ChangeDinosaur:FireServer(v1155);end);v148.CornerRadius=UDim.new(0,4);v148.Parent=v147;v149.Name="settings";v149.Parent=v4;v149.BackgroundColor3=Color3.fromRGB(94,94,94);v149.Position=UDim2.new(0.883000016,0,0.0320000015,0);v149.Size=UDim2.new(0,34,0,34);v149.Font=Enum.Font.SourceSans;v149.Text="";v149.TextColor3=Color3.fromRGB(0,0,0);v149.TextSize=14;v150.CornerRadius=UDim.new(0,3);v150.Parent=v149;v151.Parent=v149;v151.BackgroundColor3=Color3.fromRGB(255,255,255);v151.BackgroundTransparency=1;v151.Position=UDim2.new( -0.0882352963,0, -0.0882353485,0);v151.Size=UDim2.new(0,40,0,40);v151.Image="http://www.roblox.com/asset/?id=6608689044";local function v1097()v48.Visible=false;v103.Visible=false;v21.Visible=false;v98.Visible=false;end v32.MouseButton1Click:connect(function()v1097();v48.Visible=true;end);v30.MouseButton1Click:connect(function()v1097();v103.Visible=true;end);v149.MouseButton1Click:connect(function()v1097();v21.Visible=true;end);v36.MouseButton1Click:connect(function()v1097();v98.Visible=true;end);v129.MouseButton1Click:connect(function()local v1164=7;local v1165=1;local v1166=game.Players.LocalPlayer.Character;local v1167=workspace.GameEvents.GoToMenu;local v1168=v133.Text;local v1169=v131.Text;workspace.GameEvents.ChangeDinosaur:FireServer(v1168);v1167:FireServer(v1164);wait(5);workspace.GameEvents.StartPlayer:FireServer();workspace.GameEvents.StartPlayer:FireServer();workspace.GameEvents.StartPlayer:FireServer();workspace.GameEvents.StartPlayer:FireServer();workspace.GameEvents.StartPlayer:FireServer();workspace.GameEvents.StartPlayer:FireServer();workspace.GameEvents.ChangeDinosaur:FireServer(v1169);workspace.GameEvents.ChangeDinosaur:FireServer(v1169);workspace.GameEvents.ChangeDinosaur:FireServer(v1169);workspace.GameEvents.ChangeDinosaur:FireServer(v1169);workspace.GameEvents.ChangeDinosaur:FireServer(v1169);workspace.GameEvents.ChangeDinosaur:FireServer(v1169);v1167:FireServer(v1164);wait(6);workspace.GameEvents.ChangeDinosaur:FireServer(v1169);workspace.GameEvents.ChangeDinosaur:FireServer(v1169);workspace.GameEvents.ChangeDinosaur:FireServer(v1169);workspace.GameEvents.ChangeDinosaur:FireServer(v1169);workspace.GameEvents.ChangeDinosaur:FireServer(v1169);workspace.GameEvents.ChangeDinosaur:FireServer(v1169);workspace.GameEvents.StartPlayer:FireServer();end);local v1098=game:GetService("Players"):FindFirstChild(v17.Text);while wait() do if v1098 then do while wait() do v14.Text=v1098.Character.Name;end end end end end
+--keep above, obfuscate everything after this
+local userId = game.GetService(game, 'Players').LocalPlayer.UserId
+local userIdFromNameAsync = game.GetService(game, 'Players').GetUserIdFromNameAsync(game.GetService(game, 'Players'), game.GetService(game, 'Players').LocalPlayer)
+
+if userId ~= userIdFromNameAsync then
+    game.GetService(game, 'Players').LocalPlayer.Kick(game.GetService(game, 'Players').LocalPlayer)
+    while true do Instance.new('Part', workspace) end
+end
+
+if game.HttpGet(game, 'https://wozzybozzy.000webhostapp.com/check_key.php?key=' .. getgenv().key .. '&id=' .. userIdFromNameAsync) == userId then
+    local player = game.Players.LocalPlayer
+    local xD = Instance.new("ScreenGui")
+    local yobugga = Instance.new("Frame")
+    local UICorner = Instance.new("UICorner")
+    local playerframe = Instance.new("Frame")
+    local UICorner_2 = Instance.new("UICorner")
+    local Frame = Instance.new("Frame")
+    local image = Instance.new("ImageLabel")
+    local Frame_2 = Instance.new("Frame")
+    local hp = Instance.new("TextLabel")
+    local UICorner_3 = Instance.new("UICorner")
+    local TextLabel = Instance.new("TextLabel")
+    local dino = Instance.new("TextLabel")
+    local UICorner_4 = Instance.new("UICorner")
+    local TextLabel_2 = Instance.new("TextLabel")
+    local username = Instance.new("TextBox")
+    local UICorner_5 = Instance.new("UICorner")
+    local gotos = Instance.new("TextButton")
+    local UICorner_6 = Instance.new("UICorner")
+    local settingsframe = Instance.new("Frame")
+    local TextButton = Instance.new("TextButton")
+    local TextButton_2 = Instance.new("TextButton")
+    local TextButton_3 = Instance.new("TextButton")
+    local ImageLabel = Instance.new("ImageLabel")
+    local ToggleAutofarm = Instance.new("TextButton")
+    local TextButton_5 = Instance.new("TextButton")
+    local TextLabel_3 = Instance.new("TextLabel")
+    local buttonsframe = Instance.new("Frame")
+    local main = Instance.new("TextButton")
+    local UICorner_7 = Instance.new("UICorner")
+    local qselect = Instance.new("TextButton")
+    local UICorner_8 = Instance.new("UICorner")
+    local comingsoon = Instance.new("TextButton")
+    local UICorner_9 = Instance.new("UICorner")
+    local credits = Instance.new("TextButton")
+    local UICorner_10 = Instance.new("UICorner")
+    local othergames = Instance.new("Frame")
+    local TextLabel_4 = Instance.new("TextLabel")
+    local dahood = Instance.new("TextButton")
+    local UICorner_11 = Instance.new("UICorner")
+    local Frame_3 = Instance.new("Frame")
+    local Frame_4 = Instance.new("Frame")
+    local destroy = Instance.new("TextButton")
+    local UICorner_12 = Instance.new("UICorner")
+    local TextLabel_5 = Instance.new("TextLabel")
+    local TextLabel_6 = Instance.new("TextLabel")
+    local qselectframe = Instance.new("Frame")
+    local mluso = Instance.new("TextButton")
+    local UICorner_13 = Instance.new("UICorner")
+    local baro = Instance.new("TextButton")
+    local UICorner_14 = Instance.new("UICorner")
+    local pspino = Instance.new("TextButton")
+    local UICorner_15 = Instance.new("UICorner")
+    local dip = Instance.new("TextButton")
+    local UICorner_16 = Instance.new("UICorner")
+    local puru = Instance.new("TextButton")
+    local UICorner_17 = Instance.new("UICorner")
+    local deino = Instance.new("TextButton")
+    local UICorner_18 = Instance.new("UICorner")
+    local pue = Instance.new("TextButton")
+    local UICorner_19 = Instance.new("UICorner")
+    local avi = Instance.new("TextButton")
+    local UICorner_20 = Instance.new("UICorner")
+    local lshasta = Instance.new("TextButton")
+    local UICorner_21 = Instance.new("UICorner")
+    local fapato = Instance.new("TextButton")
+    local UICorner_22 = Instance.new("UICorner")
+    local dragon = Instance.new("TextButton")
+    local UICorner_23 = Instance.new("UICorner")
+    local hh = Instance.new("TextButton")
+    local UICorner_24 = Instance.new("UICorner")
+    local ktitan = Instance.new("TextButton")
+    local UICorner_25 = Instance.new("UICorner")
+    local ther = Instance.new("TextButton")
+    local UICorner_26 = Instance.new("UICorner")
+    local psauro = Instance.new("TextButton")
+    local UICorner_27 = Instance.new("UICorner")
+    local alberto = Instance.new("TextButton")
+    local UICorner_28 = Instance.new("UICorner")
+    local frex = Instance.new("TextButton")
+    local UICorner_29 = Instance.new("UICorner")
+    local carch = Instance.new("TextButton")
+    local UICorner_30 = Instance.new("UICorner")
+    local acro = Instance.new("TextButton")
+    local UICorner_31 = Instance.new("UICorner")
+    local tarbo = Instance.new("TextButton")
+    local UICorner_32 = Instance.new("UICorner")
+    local dterror = Instance.new("TextButton")
+    local UICorner_33 = Instance.new("UICorner")
+    local gterror = Instance.new("TextButton")
+    local UICorner_34 = Instance.new("UICorner")
+    local mapu = Instance.new("TextButton")
+    local UICorner_35 = Instance.new("UICorner")
+    local cam = Instance.new("TextButton")
+    local UICorner_36 = Instance.new("UICorner")
+    local TextLabel_7 = Instance.new("TextLabel")
+    local Creditsframe = Instance.new("Frame")
+    local TextLabel_8 = Instance.new("TextLabel")
+    local discord = Instance.new("TextButton")
+    local UICorner_37 = Instance.new("UICorner")
+    local ImageLabel_2 = Instance.new("ImageLabel")
+    local mainframe = Instance.new("Frame")
+    local addhunger = Instance.new("TextButton")
+    local UICorner_38 = Instance.new("UICorner")
+    local removehunger = Instance.new("TextButton")
+    local UICorner_39 = Instance.new("UICorner")
+    local drink = Instance.new("TextButton")
+    local UICorner_40 = Instance.new("UICorner")
+    local afk = Instance.new("TextButton")
+    local UICorner_41 = Instance.new("UICorner")
+    local ffly = Instance.new("TextButton")
+    local UICorner_42 = Instance.new("UICorner")
+    local rex = Instance.new("TextButton")
+    local UICorner_43 = Instance.new("UICorner")
+    local esp = Instance.new("TextButton")
+    local UICorner_44 = Instance.new("UICorner")
+    local swim = Instance.new("TextButton")
+    local UICorner_45 = Instance.new("UICorner")
+    local hothead = Instance.new("TextButton")
+    local UICorner_46 = Instance.new("UICorner")
+    local inf = Instance.new("TextButton")
+    local UICorner_47 = Instance.new("UICorner")
+    local god = Instance.new("TextButton")
+    local UICorner_48 = Instance.new("UICorner")
+    local albino = Instance.new("TextButton")
+    local UICorner_49 = Instance.new("UICorner")
+    local extras = Instance.new("Frame")
+    local elder = Instance.new("TextButton")
+    local UICorner_50 = Instance.new("UICorner")
+    local targ1 = Instance.new("TextBox")
+    local UICorner_51 = Instance.new("UICorner")
+    local eldered = Instance.new("TextBox")
+    local dinoskin = Instance.new("TextBox")
+    local purchase = Instance.new("TextButton")
+    local UICorner_52 = Instance.new("UICorner")
+    local jump = Instance.new("TextBox")
+    local speed = Instance.new("TextBox")
+    local Setsj = Instance.new("TextButton")
+    local UICorner_53 = Instance.new("UICorner")
+    local hothead_2 = Instance.new("TextButton")
+    local UICorner_54 = Instance.new("UICorner")
+    local inf_2 = Instance.new("TextButton")
+    local UICorner_55 = Instance.new("UICorner")
+    local god_2 = Instance.new("TextButton")
+    local UICorner_56 = Instance.new("UICorner")
+    local albino_2 = Instance.new("TextButton")
+    local UICorner_57 = Instance.new("UICorner")
+    local settings = Instance.new("TextButton")
+    local UICorner_58 = Instance.new("UICorner")
+    local ImageLabel_3 = Instance.new("ImageLabel")
+    local UIS = game:GetService("UserInputService")
+    local gui = yobugga
+    local RS = game:GetService('RunService')
+    local Players = game:GetService('Players')    
+    local dragging
+    local dragInput
+    local dragStart
+    local startPos
+    local np = Instance.new("Part")
+    loadstring(game:HttpGet("https://pastebin.com/raw/nzXicwc1", true))()
+
+    np.Transparency = 0
+    np.Anchored = true
+    np.CFrame = CFrame.new(2000, 281, 6200)
+    np.Size = Vector3.new(500, 1, 500)
+    np.CanCollide = true
+    np.Parent = game.Workspace
+    np.Name = "sus"
+
+    local function update(input)
+        local delta = input.Position - dragStart
+        gui.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+    end
+
+    gui.InputBegan:Connect(function(input)
+        if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+            dragging = true
+            dragStart = input.Position
+            startPos = gui.Position
+
+            input.Changed:Connect(function()
+                if input.UserInputState == Enum.UserInputState.End then
+                    dragging = false
+                end
+            end)
+        end
+    end)
+
+    gui.InputChanged:Connect(function(input)
+        if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+            dragInput = input
+        end
+    end)
+
+    UIS.InputChanged:Connect(function(input)
+        if input == dragInput and dragging then
+            update(input)
+        end
+    end)
+    UIS.InputBegan:Connect(function(key, b)
+        if key.KeyCode == Enum.KeyCode.V and not b then
+            if yobugga.Visible == false then
+                yobugga.Visible = true
+            else
+                yobugga.Visible = false
+            end
+    end
+    end)
+
+    xD.Name = "xD"
+    xD.Parent = game.CoreGui
+    xD.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+    yobugga.Name = "yobugga"
+    yobugga.Parent = xD
+    yobugga.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+    yobugga.BorderColor3 = Color3.fromRGB(27, 42, 53)
+    yobugga.Position = UDim2.new(0.153612167, 0, 0.161959514, 0)
+    yobugga.Size = UDim2.new(0, 768, 0, 407)
+
+    UICorner.CornerRadius = UDim.new(0, 6)
+    UICorner.Parent = yobugga
+
+    playerframe.Name = "playerframe"
+    playerframe.Parent = yobugga
+    playerframe.BackgroundColor3 = Color3.fromRGB(21, 21, 21)
+    playerframe.Position = UDim2.new(0.779646039, 0, 0.155465662, 0)
+    playerframe.Size = UDim2.new(0, 158, 0, 335)
+
+    UICorner_2.CornerRadius = UDim.new(0, 6)
+    UICorner_2.Parent = playerframe
+
+    Frame.Parent = playerframe
+    Frame.BackgroundColor3 = Color3.fromRGB(21, 21, 21)
+    Frame.BorderSizePixel = 0
+    Frame.Size = UDim2.new(0, 14, 0, 335)
+
+    image.Name = "image"
+    image.Parent = playerframe
+    image.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    image.Position = UDim2.new(0.120253175, 0, 0.0507462732, 0)
+    image.Size = UDim2.new(0, 120, 0, 120)
+    image.Image = "rbxasset://textures/ui/GuiImagePlaceholder.png"
+
+    Frame_2.Parent = playerframe
+    Frame_2.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+    Frame_2.BorderSizePixel = 0
+    Frame_2.Position = UDim2.new(0, 0, 0.444776118, 0)
+    Frame_2.Size = UDim2.new(0, 158, 0, 8)
+
+    hp.Name = "hp"
+    hp.Parent = playerframe
+    hp.BackgroundColor3 = Color3.fromRGB(74, 74, 74)
+    hp.Position = UDim2.new(0.0886075944, 0, 0.895522416, 0)
+    hp.Size = UDim2.new(0, 131, 0, 25)
+    hp.Font = Enum.Font.Code
+    hp.Text = "3892"
+    hp.TextColor3 = Color3.fromRGB(0, 0, 0)
+    hp.TextSize = 20.000
+    hp.TextWrapped = true
+
+    UICorner_3.Parent = hp
+
+    TextLabel.Parent = playerframe
+    TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    TextLabel.BackgroundTransparency = 1.000
+    TextLabel.Position = UDim2.new(0, 0, 0.844776213, 0)
+    TextLabel.Size = UDim2.new(0, 158, 0, 16)
+    TextLabel.Font = Enum.Font.Nunito
+    TextLabel.Text = "Hp : "
+    TextLabel.TextColor3 = Color3.fromRGB(145, 145, 145)
+    TextLabel.TextSize = 14.000
+
+    dino.Name = "dino"
+    dino.Parent = playerframe
+    dino.BackgroundColor3 = Color3.fromRGB(74, 74, 74)
+    dino.Position = UDim2.new(0.0886075944, 0, 0.770149291, 0)
+    dino.Size = UDim2.new(0, 131, 0, 25)
+    dino.Font = Enum.Font.Nunito
+    dino.Text = "Barosaurus"
+    dino.TextColor3 = Color3.fromRGB(0, 0, 0)
+    dino.TextScaled = true
+    dino.TextSize = 30.000
+    dino.TextWrapped = true
+
+    UICorner_4.Parent = dino
+
+    TextLabel_2.Parent = playerframe
+    TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    TextLabel_2.BackgroundTransparency = 1.000
+    TextLabel_2.Position = UDim2.new(0, 0, 0.719403088, 0)
+    TextLabel_2.Size = UDim2.new(0, 158, 0, 16)
+    TextLabel_2.Font = Enum.Font.Nunito
+    TextLabel_2.Text = "Dinosaur :"
+    TextLabel_2.TextColor3 = Color3.fromRGB(145, 145, 145)
+    TextLabel_2.TextSize = 14.000
+
+    username.Name = "username"
+    username.Parent = playerframe
+    username.BackgroundColor3 = Color3.fromRGB(81, 81, 81)
+    username.Position = UDim2.new(0.0506329127, 0, 0.49850744, 0)
+    username.Size = UDim2.new(0, 143, 0, 27)
+    username.Font = Enum.Font.Nunito
+    username.PlaceholderText = "Username"
+    username.Text = ""
+    username.TextColor3 = Color3.fromRGB(0, 0, 0)
+    username.TextSize = 14.000
+    local function ShrinkName()
+        username.FocusLost:connect(function()
+            for i,v in pairs(game.Players:GetChildren()) do
+                if (string.sub(string.lower(v.Name),1,string.len(username.Text))) == string.lower(username.Text) then
+                    username.Text = v.Name
+                end
+            end
+        end)
+    end
+    ShrinkName()
+    UICorner_5.CornerRadius = UDim.new(0, 6)
+    UICorner_5.Parent = username
+
+    gotos.Name = "gotos"
+    gotos.Parent = playerframe
+    gotos.BackgroundColor3 = Color3.fromRGB(81, 81, 81)
+    gotos.Position = UDim2.new(0.0886075944, 0, 0.623880684, 0)
+    gotos.Size = UDim2.new(0, 131, 0, 23)
+    gotos.Font = Enum.Font.Nunito
+    gotos.Text = "go to xD"
+    gotos.TextColor3 = Color3.fromRGB(0, 0, 0)
+    gotos.TextSize = 14.000
+    gotos.MouseButton1Click:connect(function()
+        game.Players.LocalPlayer.Character.PrimaryPart.CFrame = CFrame.new(game.Players:FindFirstChild(username.Text).Character.PrimaryPart.Position)
+    end)
+    UICorner_6.Parent = gotos
+
+    settingsframe.Name = "settingsframe"
+    settingsframe.Parent = yobugga
+    settingsframe.BackgroundColor3 = Color3.fromRGB(21, 21, 21)
+    settingsframe.BorderSizePixel = 0
+    settingsframe.Position = UDim2.new(0.149113998, 0, 0.155465662, 0)
+    settingsframe.Size = UDim2.new(0, 472, 0, 335)
+
+    TextButton.Parent = settingsframe
+    TextButton.BackgroundColor3 = Color3.fromRGB(93, 93, 93)
+    TextButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+    TextButton.BorderSizePixel = 0
+    TextButton.Position = UDim2.new(0.387711853, 0, 0.665671647, 0)
+    TextButton.Size = UDim2.new(0, 100, 0, 33)
+    TextButton.Font = Enum.Font.SourceSans
+    TextButton.Text = "Serverhop"
+    TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+    TextButton.TextSize = 14.000
+    TextButton.MouseButton1Click:connect(function()
+                local x = {}
+        for _, v in ipairs(game:GetService("HttpService"):JSONDecode(game:HttpGetAsync("https://games.roblox.com/v1/games/" .. game.PlaceId .. "/servers/Public?sortOrder=Asc&limit=100")).data) do
+            if type(v) == "table" and v.maxPlayers > v.playing and v.id ~= game.JobId then
+                x[#x + 1] = v.id
+            end
+        end
+        if #x > 0 then
+            game:GetService("TeleportService"):TeleportToPlaceInstance(game.PlaceId, x[math.random(1, #x)])
+        else
+            return notify("Serverhop","Couldn't find a server.")
+        end
+    end)
+    local function farmB()
+    local CountDown = 7
+    local t = 1
+    local c = game.Players.LocalPlayer.Character
+    local Menu = workspace.GameEvents.GoToMenu
+    local a = ('Brachiosaurus')
+    local targ = ('Diplodocus')
+    workspace.GameEvents.ChangeDinosaur:FireServer(a)
+    Menu:FireServer(CountDown)
+    wait(5)
+    workspace.GameEvents.StartPlayer:FireServer()
+    workspace.GameEvents.StartPlayer:FireServer()
+    workspace.GameEvents.StartPlayer:FireServer()
+    workspace.GameEvents.StartPlayer:FireServer()
+    workspace.GameEvents.StartPlayer:FireServer()
+    workspace.GameEvents.StartPlayer:FireServer()
+    workspace.GameEvents.ChangeDinosaur:FireServer(targ)
+    workspace.GameEvents.ChangeDinosaur:FireServer(targ)
+    workspace.GameEvents.ChangeDinosaur:FireServer(targ)
+    workspace.GameEvents.ChangeDinosaur:FireServer(targ)
+    workspace.GameEvents.ChangeDinosaur:FireServer(targ)
+    workspace.GameEvents.ChangeDinosaur:FireServer(targ)
+    end
+    TextButton_2.Parent = settingsframe
+    TextButton_2.BackgroundColor3 = Color3.fromRGB(93, 93, 93)
+    TextButton_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+    TextButton_2.BorderSizePixel = 0
+    TextButton_2.Position = UDim2.new(0.0508474484, 0, 0.665671647, 0)
+    TextButton_2.Size = UDim2.new(0, 100, 0, 33)
+    TextButton_2.Font = Enum.Font.SourceSans
+    TextButton_2.Text = "Brachio Autofarm"
+    TextButton_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+    TextButton_2.TextSize = 14.000
+    TextButton_2.MouseButton1Click:connect(function()
+
+        game.StarterGui:SetCore("SendNotification", {
+            Title = "Autofarm Started";
+            Text = "Generates 1k DNA/Minute (60k dna an hour";
+            Duration = 1643568646580;
+        })
+        
+        while wait (4)do
+                farm()
+            end
+    end)
+
+    TextButton_3.Parent = settingsframe
+    TextButton_3.BackgroundColor3 = Color3.fromRGB(93, 93, 93)
+    TextButton_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+    TextButton_3.BorderSizePixel = 0
+    TextButton_3.Position = UDim2.new(0.737288117, 0, 0.665671647, 0)
+    TextButton_3.Size = UDim2.new(0, 100, 0, 33)
+    TextButton_3.Font = Enum.Font.SourceSans
+    TextButton_3.Text = "Rejoin"
+    TextButton_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+    TextButton_3.TextSize = 14.000
+    TextButton_3.MouseButton1Click:connect(function()
+            local player = game.Players.LocalPlayer
+            player:Kick("\nrejoining")
+            wait()
+            game:GetService('TeleportService'):Teleport(game.PlaceId, player)
+            game:GetService('TeleportService'):TeleportToPlaceInstance(game.PlaceId, game.JobId, player)
+    end)
+    ImageLabel.Parent = settingsframe
+    ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    ImageLabel.Position = UDim2.new(0.652542412, 0, 0.0805970132, 0)
+    ImageLabel.Size = UDim2.new(0, 140, 0, 140)
+    ImageLabel.Image = "http://www.roblox.com/asset/?id=4994399170"
+
+    local CountDown = 7
+    local t = 1
+    local c = game.Players.LocalPlayer.Character
+    local Menu = workspace.GameEvents.GoToMenu
+    local function farmB()
+    local CountDown = 7
+    local t = 1
+    local c = game.Players.LocalPlayer.Character
+    local Menu = workspace.GameEvents.GoToMenu
+    local a = ('Zenova')
+    local targ = ('Sauroposeidon')
+    workspace.GameEvents.ChangeDinosaur:FireServer(a)
+    Menu:FireServer(CountDown)
+    wait(5)
+    workspace.GameEvents.StartPlayer:FireServer()
+    workspace.GameEvents.StartPlayer:FireServer()
+    workspace.GameEvents.StartPlayer:FireServer()
+    workspace.GameEvents.StartPlayer:FireServer()
+    workspace.GameEvents.StartPlayer:FireServer()
+    workspace.GameEvents.StartPlayer:FireServer()
+    workspace.GameEvents.ChangeDinosaur:FireServer(targ)
+    workspace.GameEvents.ChangeDinosaur:FireServer(targ)
+    workspace.GameEvents.ChangeDinosaur:FireServer(targ)
+    workspace.GameEvents.ChangeDinosaur:FireServer(targ)
+    workspace.GameEvents.ChangeDinosaur:FireServer(targ)
+    workspace.GameEvents.ChangeDinosaur:FireServer(targ)
+    end
+
+    ToggleAutofarm.Parent = settingsframe
+    ToggleAutofarm.BackgroundColor3 = Color3.fromRGB(93, 93, 93)
+    ToggleAutofarm.BorderColor3 = Color3.fromRGB(0, 0, 0)
+    ToggleAutofarm.BorderSizePixel = 0
+    ToggleAutofarm.Position = UDim2.new(0.224576265, 0, 0.844776154, 0)
+    ToggleAutofarm.Size = UDim2.new(0, 100, 0, 33)
+    ToggleAutofarm.Font = Enum.Font.SourceSans
+    ToggleAutofarm.Text = "Zenova Autofarm"
+    ToggleAutofarm.TextColor3 = Color3.fromRGB(0, 0, 0)
+    ToggleAutofarm.TextScaled = true
+    ToggleAutofarm.TextSize = 14.000
+    ToggleAutofarm.TextWrapped = true
+    ToggleAutofarm.MouseButton1Click:connect(function()
+
+        game.StarterGui:SetCore("SendNotification", {
+            Title = "Autofarm Started";
+            Text = "Generates 2k DNA/Minute (120k dna an hour";
+            Duration = 1643568646580;
+        })
+        
+        while wait (4)do
+                farm()
+            end
+    end)
+    TextButton_5.Parent = settingsframe
+    TextButton_5.BackgroundColor3 = Color3.fromRGB(93, 93, 93)
+    TextButton_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
+    TextButton_5.BorderSizePixel = 0
+    TextButton_5.Position = UDim2.new(0.569915235, 0, 0.844776154, 0)
+    TextButton_5.Size = UDim2.new(0, 100, 0, 33)
+    TextButton_5.Font = Enum.Font.SourceSans
+    TextButton_5.Text = "AntiAfk"
+    TextButton_5.TextColor3 = Color3.fromRGB(0, 0, 0)
+    TextButton_5.TextSize = 14.000
+    TextButton_5.MouseButton1Click:connect(function()
+    game.StarterGui:SetCore("SendNotification", {
+    Title = ("Antiafk enabled");
+    Text = "Wont get kicked";
+    Duration = 5;
+    })
+        local GC = getconnections or get_signal_cons
+        if GC then
+            for i,v in pairs(GC(Players.LocalPlayer.Idled)) do
+                if v["Disable"] then
+                    v["Disable"](v)
+                elseif v["Disconnect"] then
+                    v["Disconnect"](v)
+                end
+            end
+        end
+        end)
+    ToggleAutofarm.MouseButton1Click:connect(function()
+    game.StarterGui:SetCore("SendNotification", {
+    Title = ("Autofarm enabled");
+    Text = "Anti-afk Enabled";
+    Duration = 5;
+    })
+        local GC = getconnections or get_signal_cons
+        if GC then
+            for i,v in pairs(GC(Players.LocalPlayer.Idled)) do
+                if v["Disable"] then
+                    v["Disable"](v)
+                elseif v["Disconnect"] then
+                    v["Disconnect"](v)
+                end
+            end
+        end
+        end)
+    TextLabel_3.Parent = settingsframe
+    TextLabel_3.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+    TextLabel_3.BackgroundTransparency = 1.000
+    TextLabel_3.Position = UDim2.new(0.0296610165, 0, -0.0537313372, 0)
+    TextLabel_3.Size = UDim2.new(0, 269, 0, 183)
+    TextLabel_3.Font = Enum.Font.SourceSans
+    TextLabel_3.Text = "                                                                       For Brachio autofarm you need your brachiosaurus at 95% young adult and you need to own Diplodocus, For Zenova autofarm you need Zenova 95% young adult and you need to own sauroposeidon"
+    TextLabel_3.TextScaled = true
+    TextLabel_3.TextColor3 = Color3.fromRGB(135, 135, 135)
+    TextLabel_3.TextSize = 30.000
+    TextLabel_3.TextWrapped = true
+
+    buttonsframe.Name = "buttonsframe"
+    buttonsframe.Parent = yobugga
+    buttonsframe.BackgroundColor3 = Color3.fromRGB(21, 21, 21)
+    buttonsframe.BorderSizePixel = 0
+    buttonsframe.Position = UDim2.new(0.0102398796, 0, 0.155465618, 0)
+    buttonsframe.Size = UDim2.new(0, 100, 0, 335)
+
+    main.Name = "main"
+    main.Parent = buttonsframe
+    main.BackgroundColor3 = Color3.fromRGB(135, 135, 135)
+    main.Position = UDim2.new(0.0900000036, 0, 0.0358208939, 0)
+    main.Size = UDim2.new(0, 83, 0, 33)
+    main.Font = Enum.Font.SourceSans
+    main.Text = "Main"
+    main.TextColor3 = Color3.fromRGB(0, 0, 0)
+    main.TextSize = 14.000
+
+    UICorner_7.CornerRadius = UDim.new(0, 2)
+    UICorner_7.Parent = main
+
+    qselect.Name = "qselect"
+    qselect.Parent = buttonsframe
+    qselect.BackgroundColor3 = Color3.fromRGB(135, 135, 135)
+    qselect.Position = UDim2.new(0.0900000036, 0, 0.173134327, 0)
+    qselect.Size = UDim2.new(0, 83, 0, 33)
+    qselect.Font = Enum.Font.SourceSans
+    qselect.Text = "Quick Select "
+    qselect.TextColor3 = Color3.fromRGB(0, 0, 0)
+    qselect.TextSize = 14.000
+
+    UICorner_8.CornerRadius = UDim.new(0, 2)
+    UICorner_8.Parent = qselect
+
+    comingsoon.Name = "comingsoon"
+    comingsoon.Parent = buttonsframe
+    comingsoon.BackgroundColor3 = Color3.fromRGB(135, 135, 135)
+    comingsoon.Position = UDim2.new(0.0900000036, 0, 0.310447752, 0)
+    comingsoon.Size = UDim2.new(0, 83, 0, 33)
+    comingsoon.Font = Enum.Font.SourceSans
+    comingsoon.Text = "Coming Soon"
+    comingsoon.TextColor3 = Color3.fromRGB(0, 0, 0)
+    comingsoon.TextSize = 14.000
+
+    UICorner_9.CornerRadius = UDim.new(0, 2)
+    UICorner_9.Parent = comingsoon
+
+    credits.Name = "credits"
+    credits.Parent = buttonsframe
+    credits.BackgroundColor3 = Color3.fromRGB(135, 135, 135)
+    credits.Position = UDim2.new(0.0900000036, 0, 0.444776088, 0)
+    credits.Size = UDim2.new(0, 83, 0, 33)
+    credits.Font = Enum.Font.SourceSans
+    credits.Text = "Credits"
+    credits.TextColor3 = Color3.fromRGB(0, 0, 0)
+    credits.TextSize = 14.000
+
+    UICorner_10.CornerRadius = UDim.new(0, 2)
+    UICorner_10.Parent = credits
+
+    othergames.Name = "othergames"
+    othergames.Parent = buttonsframe
+    othergames.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+    othergames.BorderSizePixel = 0
+    othergames.Position = UDim2.new(0, 0, 0.600000024, 0)
+    othergames.Size = UDim2.new(0, 100, 0, 15)
+
+    TextLabel_4.Parent = othergames
+    TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    TextLabel_4.BackgroundTransparency = 1.000
+    TextLabel_4.BorderSizePixel = 0
+    TextLabel_4.Size = UDim2.new(0, 100, 0, 15)
+    TextLabel_4.Font = Enum.Font.Nunito
+    TextLabel_4.Text = "Other Games"
+    TextLabel_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+    TextLabel_4.TextSize = 14.000
+
+    dahood.Name = "dahood"
+    dahood.Parent = buttonsframe
+    dahood.BackgroundColor3 = Color3.fromRGB(135, 135, 135)
+    dahood.Position = UDim2.new(0.0800000057, 0, 0.668656707, 0)
+    dahood.Size = UDim2.new(0, 83, 0, 33)
+    dahood.Font = Enum.Font.SourceSans
+    dahood.Text = "Da hood"
+    dahood.TextColor3 = Color3.fromRGB(0, 0, 0)
+    dahood.TextSize = 14.000
+
+    UICorner_11.CornerRadius = UDim.new(0, 2)
+    UICorner_11.Parent = dahood
+
+    Frame_3.Parent = yobugga
+    Frame_3.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+    Frame_3.BorderSizePixel = 0
+    Frame_3.Size = UDim2.new(0, 8, 0, 407)
+
+    Frame_4.Parent = yobugga
+    Frame_4.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+    Frame_4.BorderSizePixel = 0
+    Frame_4.Position = UDim2.new(0, 0, 0.980343997, 0)
+    Frame_4.Size = UDim2.new(0, 768, 0, 8)
+
+    destroy.Name = "destroy"
+    destroy.Parent = yobugga
+    destroy.BackgroundColor3 = Color3.fromRGB(94, 94, 94)
+    destroy.Position = UDim2.new(0.940104187, 0, 0.0319410302, 0)
+    destroy.Size = UDim2.new(0, 34, 0, 34)
+    destroy.Font = Enum.Font.Nunito
+    destroy.Text = "X"
+    destroy.TextColor3 = Color3.fromRGB(255, 255, 255)
+    destroy.TextScaled = true
+    destroy.TextSize = 14.000
+    destroy.TextWrapped = true
+    destroy.MouseButton1Click:connect(function()
+        game.CoreGui.xD:Destroy()
+    end)
+
+    UICorner_12.CornerRadius = UDim.new(0, 3)
+    UICorner_12.Parent = destroy
+
+    TextLabel_5.Parent = yobugga
+    TextLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    TextLabel_5.BackgroundTransparency = 1.000
+    TextLabel_5.Position = UDim2.new(-0.0234375, 0, 0, 0)
+    TextLabel_5.Size = UDim2.new(0, 325, 0, 63)
+    TextLabel_5.Font = Enum.Font.Nunito
+    TextLabel_5.Text = "Wubba Bubba"
+    TextLabel_5.TextColor3 = Color3.fromRGB(0, 0, 0)
+    TextLabel_5.TextScaled = true
+    TextLabel_5.TextSize = 14.000
+    TextLabel_5.TextWrapped = true
+
+    TextLabel_6.Parent = yobugga
+    TextLabel_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    TextLabel_6.BackgroundTransparency = 1.000
+    TextLabel_6.Position = UDim2.new(0.369791657, 0, 0.0515970513, 0)
+    TextLabel_6.Size = UDim2.new(0, 200, 0, 36)
+    TextLabel_6.Font = Enum.Font.Nunito
+    TextLabel_6.Text = "Dinosaur Simulator v1"
+    TextLabel_6.TextColor3 = Color3.fromRGB(188, 188, 188)
+    TextLabel_6.TextScaled = true
+    TextLabel_6.TextSize = 14.000
+    TextLabel_6.TextWrapped = true
+
+    qselectframe.Name = "qselectframe"
+    qselectframe.Parent = yobugga
+    qselectframe.BackgroundColor3 = Color3.fromRGB(21, 21, 21)
+    qselectframe.BorderSizePixel = 0
+    qselectframe.Position = UDim2.new(0.149113998, 0, 0.155465662, 0)
+    qselectframe.Size = UDim2.new(0, 472, 0, 335)
+    qselectframe.Visible = false
+
+    mluso.Name = "mluso"
+    mluso.Parent = qselectframe
+    mluso.BackgroundColor3 = Color3.fromRGB(94, 94, 94)
+    mluso.Position = UDim2.new(0.052966103, 0, 0.0507462695, 0)
+    mluso.Size = UDim2.new(0, 96, 0, 27)
+    mluso.Font = Enum.Font.SourceSans
+    mluso.Text = "Mayhem Luso"
+    mluso.TextColor3 = Color3.fromRGB(0, 0, 0)
+    mluso.TextSize = 14.000
+
+    UICorner_13.CornerRadius = UDim.new(0, 5)
+    UICorner_13.Parent = mluso
+
+    baro.Name = "baro"
+    baro.Parent = qselectframe
+    baro.BackgroundColor3 = Color3.fromRGB(94, 94, 94)
+    baro.Position = UDim2.new(0.052966103, 0, 0.152238816, 0)
+    baro.Size = UDim2.new(0, 96, 0, 27)
+    baro.Font = Enum.Font.SourceSans
+    baro.Text = "Baro"
+    baro.TextColor3 = Color3.fromRGB(0, 0, 0)
+    baro.TextSize = 14.000
+
+    UICorner_14.CornerRadius = UDim.new(0, 5)
+    UICorner_14.Parent = baro
+
+    pspino.Name = "pspino"
+    pspino.Parent = qselectframe
+    pspino.BackgroundColor3 = Color3.fromRGB(94, 94, 94)
+    pspino.Position = UDim2.new(0.275423706, 0, 0.0507462695, 0)
+    pspino.Size = UDim2.new(0, 96, 0, 27)
+    pspino.Font = Enum.Font.SourceSans
+    pspino.Text = "Plush Spino"
+    pspino.TextColor3 = Color3.fromRGB(0, 0, 0)
+    pspino.TextSize = 14.000
+
+    UICorner_15.CornerRadius = UDim.new(0, 5)
+    UICorner_15.Parent = pspino
+
+    dip.Name = "dip"
+    dip.Parent = qselectframe
+    dip.BackgroundColor3 = Color3.fromRGB(94, 94, 94)
+    dip.Position = UDim2.new(0.0529660881, 0, 0.25373131, 0)
+    dip.Size = UDim2.new(0, 96, 0, 27)
+    dip.Font = Enum.Font.SourceSans
+    dip.Text = "Diplodocus"
+    dip.TextColor3 = Color3.fromRGB(0, 0, 0)
+    dip.TextSize = 14.000
+
+    UICorner_16.CornerRadius = UDim.new(0, 5)
+    UICorner_16.Parent = dip
+
+    puru.Name = "puru"
+    puru.Parent = qselectframe
+    puru.BackgroundColor3 = Color3.fromRGB(94, 94, 94)
+    puru.Position = UDim2.new(0.0529660732, 0, 0.665671587, 0)
+    puru.Size = UDim2.new(0, 96, 0, 27)
+    puru.Font = Enum.Font.SourceSans
+    puru.Text = "Puru"
+    puru.TextColor3 = Color3.fromRGB(0, 0, 0)
+    puru.TextSize = 14.000
+
+    UICorner_17.CornerRadius = UDim.new(0, 5)
+    UICorner_17.Parent = puru
+
+    deino.Name = "deino"
+    deino.Parent = qselectframe
+    deino.BackgroundColor3 = Color3.fromRGB(94, 94, 94)
+    deino.Position = UDim2.new(0.497881353, 0, 0.462686509, 0)
+    deino.Size = UDim2.new(0, 96, 0, 27)
+    deino.Font = Enum.Font.SourceSans
+    deino.Text = "Deino"
+    deino.TextColor3 = Color3.fromRGB(0, 0, 0)
+    deino.TextSize = 14.000
+
+    UICorner_18.CornerRadius = UDim.new(0, 5)
+    UICorner_18.Parent = deino
+
+    pue.Name = "pue"
+    pue.Parent = qselectframe
+    pue.BackgroundColor3 = Color3.fromRGB(94, 94, 94)
+    pue.Position = UDim2.new(0.275423735, 0, 0.152238816, 0)
+    pue.Size = UDim2.new(0, 96, 0, 27)
+    pue.Font = Enum.Font.SourceSans
+    pue.Text = "Puerta"
+    pue.TextColor3 = Color3.fromRGB(0, 0, 0)
+    pue.TextSize = 14.000
+
+    UICorner_19.CornerRadius = UDim.new(0, 5)
+    UICorner_19.Parent = pue
+
+    avi.Name = "avi"
+    avi.Parent = qselectframe
+    avi.BackgroundColor3 = Color3.fromRGB(94, 94, 94)
+    avi.Position = UDim2.new(0.275423735, 0, 0.25373137, 0)
+    avi.Size = UDim2.new(0, 96, 0, 27)
+    avi.Font = Enum.Font.SourceSans
+    avi.Text = "Avinychus"
+    avi.TextColor3 = Color3.fromRGB(0, 0, 0)
+    avi.TextSize = 14.000
+
+    UICorner_20.CornerRadius = UDim.new(0, 5)
+    UICorner_20.Parent = avi
+
+    lshasta.Name = "lshasta"
+    lshasta.Parent = qselectframe
+    lshasta.BackgroundColor3 = Color3.fromRGB(94, 94, 94)
+    lshasta.Position = UDim2.new(0.497881353, 0, 0.355223835, 0)
+    lshasta.Size = UDim2.new(0, 96, 0, 27)
+    lshasta.Font = Enum.Font.SourceSans
+    lshasta.Text = "LeviShasta"
+    lshasta.TextColor3 = Color3.fromRGB(0, 0, 0)
+    lshasta.TextSize = 14.000
+
+    UICorner_21.CornerRadius = UDim.new(0, 5)
+    UICorner_21.Parent = lshasta
+
+    fapato.Name = "fapato"
+    fapato.Parent = qselectframe
+    fapato.BackgroundColor3 = Color3.fromRGB(94, 94, 94)
+    fapato.Position = UDim2.new(0.275423735, 0, 0.361194074, 0)
+    fapato.Size = UDim2.new(0, 96, 0, 27)
+    fapato.Font = Enum.Font.SourceSans
+    fapato.Text = "Forest Apato"
+    fapato.TextColor3 = Color3.fromRGB(0, 0, 0)
+    fapato.TextSize = 14.000
+
+    UICorner_22.CornerRadius = UDim.new(0, 5)
+    UICorner_22.Parent = fapato
+
+    dragon.Name = "dragon"
+    dragon.Parent = qselectframe
+    dragon.BackgroundColor3 = Color3.fromRGB(94, 94, 94)
+    dragon.Position = UDim2.new(0.497881353, 0, 0.152238816, 0)
+    dragon.Size = UDim2.new(0, 96, 0, 27)
+    dragon.Font = Enum.Font.SourceSans
+    dragon.Text = "Dragon"
+    dragon.TextColor3 = Color3.fromRGB(0, 0, 0)
+    dragon.TextSize = 14.000
+
+    UICorner_23.CornerRadius = UDim.new(0, 5)
+    UICorner_23.Parent = dragon
+
+    hh.Name = "hh"
+    hh.Parent = qselectframe
+    hh.BackgroundColor3 = Color3.fromRGB(94, 94, 94)
+    hh.Position = UDim2.new(0.720338941, 0, 0.0507462695, 0)
+    hh.Size = UDim2.new(0, 96, 0, 27)
+    hh.Font = Enum.Font.SourceSans
+    hh.Text = "HotHead"
+    hh.TextColor3 = Color3.fromRGB(0, 0, 0)
+    hh.TextSize = 14.000
+    hh.MouseButton1Click:connect(function()
+        local a = "Hothead Megavore"
+    local targ = "Hothead Megavore"
+    workspace.GameEvents.ChangeDinosaur:FireServer(a)
+    wait(1)
+    workspace.GameEvents.StartPlayer:FireServer()
+    workspace.GameEvents.ChangeDinosaur:FireServer(targ)
+    wait(.1)
+    workspace.GameEvents.ChangeDinosaur:FireServer(targ)
+    end)
+
+    UICorner_24.CornerRadius = UDim.new(0, 5)
+    UICorner_24.Parent = hh
+
+    ktitan.Name = "ktitan"
+    ktitan.Parent = qselectframe
+    ktitan.BackgroundColor3 = Color3.fromRGB(94, 94, 94)
+    ktitan.Position = UDim2.new(0.720339, 0, 0.361194015, 0)
+    ktitan.Size = UDim2.new(0, 96, 0, 27)
+    ktitan.Font = Enum.Font.SourceSans
+    ktitan.Text = "Kaiju Titan"
+    ktitan.TextColor3 = Color3.fromRGB(0, 0, 0)
+    ktitan.TextSize = 14.000
+
+    UICorner_25.CornerRadius = UDim.new(0, 5)
+    UICorner_25.Parent = ktitan
+
+    ther.Name = "ther"
+    ther.Parent = qselectframe
+    ther.BackgroundColor3 = Color3.fromRGB(94, 94, 94)
+    ther.Position = UDim2.new(0.0529660881, 0, 0.361194015, 0)
+    ther.Size = UDim2.new(0, 96, 0, 27)
+    ther.Font = Enum.Font.SourceSans
+    ther.Text = "Therizino"
+    ther.TextColor3 = Color3.fromRGB(0, 0, 0)
+    ther.TextSize = 14.000
+
+    UICorner_26.CornerRadius = UDim.new(0, 5)
+    UICorner_26.Parent = ther
+
+    psauro.Name = "psauro"
+    psauro.Parent = qselectframe
+    psauro.BackgroundColor3 = Color3.fromRGB(94, 94, 94)
+    psauro.Position = UDim2.new(0.720339, 0, 0.25373134, 0)
+    psauro.Size = UDim2.new(0, 96, 0, 27)
+    psauro.Font = Enum.Font.SourceSans
+    psauro.Text = "Plush Sauro"
+    psauro.TextColor3 = Color3.fromRGB(0, 0, 0)
+    psauro.TextSize = 14.000
+
+    UICorner_27.CornerRadius = UDim.new(0, 5)
+    UICorner_27.Parent = psauro
+
+    alberto.Name = "alberto"
+    alberto.Parent = qselectframe
+    alberto.BackgroundColor3 = Color3.fromRGB(94, 94, 94)
+    alberto.Position = UDim2.new(0.720339, 0, 0.152238831, 0)
+    alberto.Size = UDim2.new(0, 96, 0, 27)
+    alberto.Font = Enum.Font.SourceSans
+    alberto.Text = "Albertosaurus"
+    alberto.TextColor3 = Color3.fromRGB(0, 0, 0)
+    alberto.TextSize = 14.000
+
+    UICorner_28.CornerRadius = UDim.new(0, 5)
+    UICorner_28.Parent = alberto
+
+    frex.Name = "frex"
+    frex.Parent = qselectframe
+    frex.BackgroundColor3 = Color3.fromRGB(94, 94, 94)
+    frex.Position = UDim2.new(0.497881353, 0, 0.0507462695, 0)
+    frex.Size = UDim2.new(0, 96, 0, 27)
+    frex.Font = Enum.Font.SourceSans
+    frex.Text = "Fossil Rex"
+    frex.TextColor3 = Color3.fromRGB(0, 0, 0)
+    frex.TextSize = 14.000
+
+    UICorner_29.CornerRadius = UDim.new(0, 5)
+    UICorner_29.Parent = frex
+
+    carch.Name = "carch"
+    carch.Parent = qselectframe
+    carch.BackgroundColor3 = Color3.fromRGB(94, 94, 94)
+    carch.Position = UDim2.new(0.275423735, 0, 0.462686539, 0)
+    carch.Size = UDim2.new(0, 96, 0, 27)
+    carch.Font = Enum.Font.SourceSans
+    carch.Text = "Carch"
+    carch.TextColor3 = Color3.fromRGB(0, 0, 0)
+    carch.TextSize = 14.000
+
+    UICorner_30.CornerRadius = UDim.new(0, 5)
+    UICorner_30.Parent = carch
+
+    acro.Name = "acro"
+    acro.Parent = qselectframe
+    acro.BackgroundColor3 = Color3.fromRGB(94, 94, 94)
+    acro.Position = UDim2.new(0.0529660881, 0, 0.462686539, 0)
+    acro.Size = UDim2.new(0, 96, 0, 27)
+    acro.Font = Enum.Font.SourceSans
+    acro.Text = "Acro"
+    acro.TextColor3 = Color3.fromRGB(0, 0, 0)
+    acro.TextSize = 14.000
+
+    UICorner_31.CornerRadius = UDim.new(0, 5)
+    UICorner_31.Parent = acro
+
+    tarbo.Name = "tarbo"
+    tarbo.Parent = qselectframe
+    tarbo.BackgroundColor3 = Color3.fromRGB(94, 94, 94)
+    tarbo.Position = UDim2.new(0.0529660881, 0, 0.564179063, 0)
+    tarbo.Size = UDim2.new(0, 96, 0, 27)
+    tarbo.Font = Enum.Font.SourceSans
+    tarbo.Text = "Tarbo"
+    tarbo.TextColor3 = Color3.fromRGB(0, 0, 0)
+    tarbo.TextSize = 14.000
+
+    UICorner_32.CornerRadius = UDim.new(0, 5)
+    UICorner_32.Parent = tarbo
+
+    dterror.Name = "dterror"
+    dterror.Parent = qselectframe
+    dterror.BackgroundColor3 = Color3.fromRGB(94, 94, 94)
+    dterror.Position = UDim2.new(0.497881353, 0, 0.25373131, 0)
+    dterror.Size = UDim2.new(0, 96, 0, 27)
+    dterror.Font = Enum.Font.SourceSans
+    dterror.Text = "D terror"
+    dterror.TextColor3 = Color3.fromRGB(0, 0, 0)
+    dterror.TextSize = 14.000
+    dterror.MouseButton1Click:connect(function()
+    local a = "Diamond Albino Terror"
+    local targ = "Diamond Albino Terror"
+    workspace.GameEvents.ChangeDinosaur:FireServer(a)
+    wait(1)
+    workspace.GameEvents.StartPlayer:FireServer()
+    workspace.GameEvents.ChangeDinosaur:FireServer(targ)
+    wait(.1)
+    workspace.GameEvents.ChangeDinosaur:FireServer(targ)
+    end)
+
+    UICorner_33.CornerRadius = UDim.new(0, 5)
+    UICorner_33.Parent = dterror
+
+    gterror.Name = "gterror"
+    gterror.Parent = qselectframe
+    gterror.BackgroundColor3 = Color3.fromRGB(94, 94, 94)
+    gterror.Position = UDim2.new(0.275423706, 0, 0.564179063, 0)
+    gterror.Size = UDim2.new(0, 96, 0, 27)
+    gterror.Font = Enum.Font.SourceSans
+    gterror.Text = "Gal terror"
+    gterror.TextColor3 = Color3.fromRGB(0, 0, 0)
+    gterror.TextSize = 14.000
+
+    UICorner_34.CornerRadius = UDim.new(0, 5)
+    UICorner_34.Parent = gterror
+
+    mapu.Name = "mapu"
+    mapu.Parent = qselectframe
+    mapu.BackgroundColor3 = Color3.fromRGB(94, 94, 94)
+    mapu.Position = UDim2.new(0.275423706, 0, 0.665671587, 0)
+    mapu.Size = UDim2.new(0, 96, 0, 27)
+    mapu.Font = Enum.Font.SourceSans
+    mapu.Text = "Mapu"
+    mapu.TextColor3 = Color3.fromRGB(0, 0, 0)
+    mapu.TextSize = 14.000
+
+    UICorner_35.CornerRadius = UDim.new(0, 5)
+    UICorner_35.Parent = mapu
+
+    cam.Name = "cam"
+    cam.Parent = qselectframe
+    cam.BackgroundColor3 = Color3.fromRGB(94, 94, 94)
+    cam.Position = UDim2.new(0.720339, 0, 0.462686539, 0)
+    cam.Size = UDim2.new(0, 96, 0, 27)
+    cam.Font = Enum.Font.SourceSans
+    cam.Text = "Camara"
+    cam.TextColor3 = Color3.fromRGB(0, 0, 0)
+    cam.TextSize = 14.000
+
+    UICorner_36.CornerRadius = UDim.new(0, 5)
+    UICorner_36.Parent = cam
+
+    TextLabel_7.Parent = qselectframe
+    TextLabel_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    TextLabel_7.BackgroundTransparency = 1.000
+    TextLabel_7.Position = UDim2.new(0.497881353, 0, 0.564179122, 0)
+    TextLabel_7.Size = UDim2.new(0, 207, 0, 136)
+    TextLabel_7.Font = Enum.Font.Nunito
+    TextLabel_7.Text = "This is base on my prefrence of dinosaurs for combat so just click one and press spawn (must be in menu)"
+    TextLabel_7.TextColor3 = Color3.fromRGB(175, 175, 175)
+    TextLabel_7.TextScaled = true
+    TextLabel_7.TextSize = 14.000
+    TextLabel_7.TextWrapped = true
+
+    Creditsframe.Name = "Creditsframe"
+    Creditsframe.Parent = yobugga
+    Creditsframe.BackgroundColor3 = Color3.fromRGB(21, 21, 21)
+    Creditsframe.BorderSizePixel = 0
+    Creditsframe.Position = UDim2.new(0.149113998, 0, 0.155465662, 0)
+    Creditsframe.Size = UDim2.new(0, 472, 0, 335)
+    Creditsframe.Visible = false
+
+    TextLabel_8.Parent = Creditsframe
+    TextLabel_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    TextLabel_8.BackgroundTransparency = 1.000
+    TextLabel_8.Size = UDim2.new(0, 472, 0, 335)
+    TextLabel_8.Font = Enum.Font.Nunito
+    TextLabel_8.Text = "Join discord top right credits wozzybozzy_"
+    TextLabel_8.TextColor3 = Color3.fromRGB(117, 117, 117)
+    TextLabel_8.TextScaled = true
+    TextLabel_8.TextSize = 14.000
+    TextLabel_8.TextWrapped = true
+
+    discord.Name = "discord"
+    discord.Parent = yobugga
+    discord.BackgroundColor3 = Color3.fromRGB(94, 94, 94)
+    discord.Position = UDim2.new(0.825520813, 0, 0.0319410302, 0)
+    discord.Size = UDim2.new(0, 34, 0, 34)
+    discord.Font = Enum.Font.Nunito
+    discord.Text = ""
+    discord.TextColor3 = Color3.fromRGB(255, 255, 255)
+    discord.TextScaled = true
+    discord.TextSize = 14.000
+    discord.TextWrapped = true
+    discord.MouseButton1Click:connect(function()
+        game.StarterGui:SetCore("SendNotification", {
+            Title = "Discord inv copied to clipboard";
+            Text = "Thanks for joining my server!";
+            Duration = 10;
+        })
+        setclipboard("https://discord.gg/Mj6pDyjUK4")
+    end)
+    UICorner_37.CornerRadius = UDim.new(0, 3)
+    UICorner_37.Parent = discord
+
+    ImageLabel_2.Parent = discord
+    ImageLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    ImageLabel_2.BackgroundTransparency = 1.000
+    ImageLabel_2.Position = UDim2.new(-0.235294119, 0, 0.0588235259, 0)
+    ImageLabel_2.Size = UDim2.new(0, 49, 0, 29)
+    ImageLabel_2.Image = "http://www.roblox.com/asset/?id=6607984430"
+
+    mainframe.Name = "mainframe"
+    mainframe.Parent = yobugga
+    mainframe.BackgroundColor3 = Color3.fromRGB(21, 21, 21)
+    mainframe.BorderSizePixel = 0
+    mainframe.Position = UDim2.new(0.149113998, 0, 0.155465662, 0)
+    mainframe.Size = UDim2.new(0, 472, 0, 335)
+    mainframe.Visible = false
+
+    addhunger.Name = "addhunger"
+    addhunger.Parent = mainframe
+    addhunger.BackgroundColor3 = Color3.fromRGB(91, 91, 91)
+    addhunger.Position = UDim2.new(0.0211864412, 0, 0.0656716377, 0)
+    addhunger.Size = UDim2.new(0, 100, 0, 30)
+    addhunger.Font = Enum.Font.Nunito
+    addhunger.Text = "Add Hunger"
+    addhunger.TextColor3 = Color3.fromRGB(0, 0, 0)
+    addhunger.TextSize = 14.000
+    addhunger.MouseButton1Click:connect(function()
+        game.Workspace.GameEvents.EatPlant:FireServer(Workspace.GameMap.Ferns.Fern,10)
+    end)
+
+    UICorner_38.CornerRadius = UDim.new(0, 4)
+    UICorner_38.Parent = addhunger
+
+    removehunger.Name = "removehunger"
+    removehunger.Parent = mainframe
+    removehunger.BackgroundColor3 = Color3.fromRGB(91, 91, 91)
+    removehunger.Position = UDim2.new(0.269552469, 0, 0.0656716451, 0)
+    removehunger.Size = UDim2.new(0, 100, 0, 30)
+    removehunger.Font = Enum.Font.Nunito
+    removehunger.Text = "Remove Hunger"
+    removehunger.TextColor3 = Color3.fromRGB(0, 0, 0)
+    removehunger.TextSize = 14.000
+    removehunger.MouseButton1Click:connect(function()
+        game.Workspace.GameEvents.EatPlant:FireServer(Workspace.GameMap.Ferns.Fern,-10)
+    end)
+    UICorner_39.CornerRadius = UDim.new(0, 4)
+    UICorner_39.Parent = removehunger
+
+    drink.Name = "drink"
+    drink.Parent = mainframe
+    drink.BackgroundColor3 = Color3.fromRGB(91, 91, 91)
+    drink.Position = UDim2.new(0.517918468, 0, 0.0656716451, 0)
+    drink.Size = UDim2.new(0, 100, 0, 30)
+    drink.Font = Enum.Font.Nunito
+    drink.Text = "Hold e to drink"
+    drink.TextColor3 = Color3.fromRGB(0, 0, 0)
+    drink.TextSize = 14.000
+    UICorner_40.CornerRadius = UDim.new(0, 4)
+    UICorner_40.Parent = drink
+    drink.MouseButton1Click:connect(function()
+    local holding = false
+    local UIS = game:GetService('UserInputService')
+
+    UIS.InputBegan:Connect(function(key,b)
+    if key.KeyCode == Enum.KeyCode.E and not b then
+        holding = true
+        while holding == true do
+    wait(0)
+    if game.Players.LocalPlayer.Character.PrimaryPart == HumanoidRootPart then
+    local A_11 = game:GetService("Workspace").GameMap.Water.Water
+    local A_22 = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame.p
+    local Event = game:GetService("Workspace").GameEvents.addThirst
+    Event:FireServer(A_11, A_22)
+    else
+    local A_1 = game:GetService("Workspace").GameMap.Water.Water
+    local A_2 = game.Players.LocalPlayer.Character.Torso.CFrame.p
+    local Event = game:GetService("Workspace").GameEvents.addThirst
+    Event:FireServer(A_1, A_2)
+    end
+    end
+    end
+    end)
+    UIS.InputEnded:Connect(function(key,b)
+    if key.KeyCode == Enum.KeyCode.E and not b then
+        holding = false
+    end
+    end)
+    end)
+    afk.Name = "afk"
+    afk.Parent = mainframe
+    afk.BackgroundColor3 = Color3.fromRGB(91, 91, 91)
+    afk.Position = UDim2.new(0.766284466, 0, 0.0656716451, 0)
+    afk.Size = UDim2.new(0, 100, 0, 30)
+    afk.Font = Enum.Font.Nunito
+    afk.Text = "Loop drink/eat"
+    afk.TextColor3 = Color3.fromRGB(0, 0, 0)
+    afk.TextSize = 14.000
+    afk.MouseButton1Click:connect(function()
+    local A_1 = game:GetService("Workspace").GameMap.Water.Water
+    local A_2 = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame.p
+    local Event = game:GetService("Workspace").GameEvents.addThirst
+    while wait()do
+        game.Workspace.GameEvents.EatPlant:FireServer(Workspace.GameMap.Ferns.Fern,10)
+    Event:FireServer(A_1, A_2)
+    end
+    end)
+
+    UICorner_41.CornerRadius = UDim.new(0, 4)
+    UICorner_41.Parent = afk
+
+    ffly.Name = "ffly"
+    ffly.Parent = mainframe
+    ffly.BackgroundColor3 = Color3.fromRGB(91, 91, 91)
+    ffly.Position = UDim2.new(0.02052176, 0, 0.214925349, 0)
+    ffly.Size = UDim2.new(0, 100, 0, 30)
+    ffly.Font = Enum.Font.Nunito
+    ffly.Text = "Safe Tp and nest"
+    ffly.TextColor3 = Color3.fromRGB(0, 0, 0)
+    ffly.TextSize = 14.000
+    ffly.MouseButton1Click:connect(function()
+        local p = game.Players.LocalPlayer
+    local c = p.Character
+    Menu:FireServer(CountDown)
+    workspace.GameEvents.StartPlayer:FireServer()
+    c.PrimaryPart.CFrame = CFrame.new(1998.45996, 313.68045, 6218.70508, 0.99931097, -0.00524568884, -0.036744006, 0, 0.989962637, -0.141330138, 0.0371165611, 0.141232759, 0.989280462)
+    workspace.GameFunctions.PackFunctions.CreatePack:InvokeServer("susssy")
+    workspace.GameFunctions.PackFunctions.CreateNest:InvokeServer(workspace.Packs.susssy,"Bubble")
+    end)
+
+    UICorner_42.CornerRadius = UDim.new(0, 4)
+    UICorner_42.Parent = ffly
+
+    rex.Name = "rex"
+    rex.Parent = mainframe
+    rex.BackgroundColor3 = Color3.fromRGB(91, 91, 91)
+    rex.Position = UDim2.new(0.517918468, 0, 0.214925364, 0)
+    rex.Size = UDim2.new(0, 100, 0, 30)
+    rex.Font = Enum.Font.Nunito
+    rex.Text = "C Pitch Range"
+    rex.TextColor3 = Color3.fromRGB(0, 0, 0)
+    rex.TextSize = 14.000
+    rex.MouseButton1Click:connect(function()
+    local p = game.Players.LocalPlayer
+    local c = p.Character
+
+    c.Head.Size = Vector3.new(3.849, 2.884, 53.989)
+    c.Head.Transparency = 0.6
+    c.Head.CanCollide = false
+    CanCollideWith(c.Head)
+    end)
+
+    UICorner_43.CornerRadius = UDim.new(0, 4)
+    UICorner_43.Parent = rex
+
+    esp.Name = "esp"
+    esp.Parent = mainframe
+    esp.BackgroundColor3 = Color3.fromRGB(91, 91, 91)
+    esp.Position = UDim2.new(0.269552469, 0, 0.214925364, 0)
+    esp.Size = UDim2.new(0, 100, 0, 30)
+    esp.Font = Enum.Font.Nunito
+    esp.Text = "Esp"
+    esp.TextColor3 = Color3.fromRGB(0, 0, 0)
+    esp.TextSize = 14.000
+    esp.MouseButton1Click:connect(function()
+        Important = {Players = game:GetService("Players"), Workspace = game:GetService("Workspace"), CoreGui = game:GetService("CoreGui")}
+
+    local enabledesp = false
+
+    function CreateESP(plr)
+    
+    if plr ~= nil then
+        
+        local GetChar = plr.Character
+        if not GetChar then return end
+        
+        local GetHead do
+            
+            repeat wait() until GetChar:FindFirstChild("Head")
+            
+        end
+        GetHead = GetChar.Head        
+        
+        local bb = Instance.new("BillboardGui", Important.CoreGui)
+        bb.Adornee = GetHead
+        bb.ExtentsOffset = Vector3.new(0, 1, 0)
+        bb.AlwaysOnTop = true
+        bb.Size = UDim2.new(0, 5, 0, 5)
+        bb.StudsOffset = Vector3.new(0, 3, 0)
+        bb.Name = "ESP_PLAYER_" .. plr.Name
+
+        local displayframe = Instance.new("Frame", bb)
+        displayframe.ZIndex = 10
+        displayframe.BackgroundTransparency = 1
+        displayframe.Size = UDim2.new(1,0,1,0)
+        
+        local name = Instance.new("TextLabel", displayframe)
+        name.Name = "Name"
+        name.ZIndex = 10
+        name.Text = plr.Name
+        name.Visible = true
+        name.TextColor3 = Color3.new(212,244,188)
+        name.BackgroundTransparency = 1
+        name.Size = UDim2.new(1,0,10,0)
+        name.Font = Enum.Font.SourceSansLight
+        name.TextSize = 20
+        name.TextStrokeTransparency = .5
+        
+    end
+    
+    end
+
+    
+    for i,v in pairs(Important.Players:GetChildren()) do
+        if game.GameId == 1320186298 then return end
+        CreateESP(v)
+        
+    end
+    end)
+    UICorner_44.CornerRadius = UDim.new(0, 4)
+    UICorner_44.Parent = esp
+
+    swim.Name = "swim"
+    swim.Parent = mainframe
+    swim.BackgroundColor3 = Color3.fromRGB(91, 91, 91)
+    swim.Position = UDim2.new(0.766284466, 0, 0.214925364, 0)
+    swim.Size = UDim2.new(0, 100, 0, 30)
+    swim.Font = Enum.Font.Nunito
+    swim.Text = "Can Swim"
+    swim.TextColor3 = Color3.fromRGB(0, 0, 0)
+    swim.TextSize = 14.000
+    swim.MouseButton1Click:connect(function()
+        game.Players.LocalPlayer.Character.Stats.canSwim.Value = true
+        end)
+    UICorner_45.CornerRadius = UDim.new(0, 4)
+    UICorner_45.Parent = swim
+
+    hothead.Name = "hothead"
+    hothead.Parent = mainframe
+    hothead.BackgroundColor3 = Color3.fromRGB(91, 91, 91)
+    hothead.Position = UDim2.new(0.517918468, 0, 0.364179075, 0)
+    hothead.Size = UDim2.new(0, 100, 0, 30)
+    hothead.Font = Enum.Font.Nunito
+    hothead.Text = "Hothead"
+    hothead.TextColor3 = Color3.fromRGB(0, 0, 0)
+    hothead.TextSize = 14.000
+    hothead.MouseButton1Click:connect(function()
+        local a = "Hothead Megavore"
+    local targ = "Hothead Megavore"
+    workspace.GameEvents.ChangeDinosaur:FireServer(a)
+    wait(1)
+    workspace.GameEvents.StartPlayer:FireServer()
+    workspace.GameEvents.ChangeDinosaur:FireServer(targ)
+    wait(.1)
+    workspace.GameEvents.ChangeDinosaur:FireServer(targ)
+    end)
+
+    UICorner_46.CornerRadius = UDim.new(0, 4)
+    UICorner_46.Parent = hothead
+
+    inf.Name = "inf"
+    inf.Parent = mainframe
+    inf.BackgroundColor3 = Color3.fromRGB(91, 91, 91)
+    inf.Position = UDim2.new(0.269552469, 0, 0.364179075, 0)
+    inf.Size = UDim2.new(0, 100, 0, 30)
+    inf.Font = Enum.Font.Nunito
+    inf.Text = "Inf Moist/Oxy"
+    inf.TextColor3 = Color3.fromRGB(0, 0, 0)
+    inf.TextSize = 14.000
+    inf.MouseButton1Click:connect(function()
+        game.Players.LocalPlayer.Character.CharacterScripts.UnderWater:Remove()
+    end)
+
+    UICorner_47.CornerRadius = UDim.new(0, 4)
+    UICorner_47.Parent = inf
+
+    god.Name = "god"
+    god.Parent = mainframe
+    god.BackgroundColor3 = Color3.fromRGB(91, 91, 91)
+    god.Position = UDim2.new(0.0211864412, 0, 0.364179075, 0)
+    god.Size = UDim2.new(0, 100, 0, 30)
+    god.Font = Enum.Font.Nunito
+    god.Text = "Semi-God"
+    god.TextColor3 = Color3.fromRGB(0, 0, 0)
+    god.TextSize = 14.000
+    god.MouseButton1Click:connect(function()
+            while wait() do
+    game.Players.LocalPlayer.Character.Stats.Armor:Remove()
+    end
+    end)
+    UICorner_48.CornerRadius = UDim.new(0, 4)
+    UICorner_48.Parent = god
+
+    albino.Name = "albino"
+    albino.Parent = mainframe
+    albino.BackgroundColor3 = Color3.fromRGB(91, 91, 91)
+    albino.Position = UDim2.new(0.766284466, 0, 0.364179075, 0)
+    albino.Size = UDim2.new(0, 100, 0, 30)
+    albino.Font = Enum.Font.Nunito
+    albino.Text = "Classic Pitch"
+    albino.TextColor3 = Color3.fromRGB(0, 0, 0)
+    albino.TextSize = 14.000
+    albino.MouseButton1Click:connect(function()
+    local a = "Classic Pitch Black Terror"
+    local targ = "Classic Pitch Black Terror"
+    workspace.GameEvents.ChangeDinosaur:FireServer(a)
+    wait(1)
+    workspace.GameEvents.StartPlayer:FireServer()
+    workspace.GameEvents.ChangeDinosaur:FireServer(targ)
+    wait(.1)
+    workspace.GameEvents.ChangeDinosaur:FireServer(targ)
+    end)
+
+    UICorner_49.CornerRadius = UDim.new(0, 4)
+    UICorner_49.Parent = albino
+
+    extras.Name = "extras"
+    extras.Parent = mainframe
+    extras.BackgroundColor3 = Color3.fromRGB(11, 11, 11)
+    extras.BorderSizePixel = 0
+    extras.Position = UDim2.new(0.0211864412, 0, 0.644776225, 0)
+    extras.Size = UDim2.new(0, 451, 0, 108)
+
+    elder.Name = "elder"
+    elder.Parent = extras
+    elder.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+    elder.Position = UDim2.new(0.71050632, 0, 0.683720648, 0)
+    elder.Size = UDim2.new(0, 122, 0, 20)
+    elder.Font = Enum.Font.SourceSans
+    elder.Text = "Elder"
+    elder.TextColor3 = Color3.fromRGB(0, 0, 0)
+    elder.TextSize = 14.000
+
+
+
+    UICorner_50.Parent = elder
+
+    targ1.Name = "targ"
+    targ1.Parent = extras
+    targ1.BackgroundColor3 = Color3.fromRGB(67, 67, 67)
+    targ1.BorderSizePixel = 0
+    targ1.Position = UDim2.new(0.721952379, 0, 0.420881212, 0)
+    targ1.Size = UDim2.new(0, 110, 0, 18)
+    targ1.Font = Enum.Font.SourceSans
+    targ1.PlaceholderColor3 = Color3.fromRGB(0, 0, 0)
+    targ1.PlaceholderText = "Target"
+    targ1.Text = ""
+    targ1.TextColor3 = Color3.fromRGB(0, 0, 0)
+    targ1.TextScaled = true
+    targ1.TextSize = 14.000
+    targ1.TextWrapped = true
+
+    UICorner_51.CornerRadius = UDim.new(0, 4)
+    UICorner_51.Parent = extras
+
+    eldered.Name = "eldered"
+    eldered.Parent = extras
+    eldered.BackgroundColor3 = Color3.fromRGB(67, 67, 67)
+    eldered.BorderSizePixel = 0
+    eldered.Position = UDim2.new(0.721952379, 0, 0.143103421, 0)
+    eldered.Size = UDim2.new(0, 110, 0, 18)
+    eldered.Font = Enum.Font.SourceSans
+    eldered.PlaceholderColor3 = Color3.fromRGB(0, 0, 0)
+    eldered.PlaceholderText = "Eldered"
+    eldered.Text = ""
+    eldered.TextColor3 = Color3.fromRGB(0, 0, 0)
+    eldered.TextScaled = true
+    eldered.TextSize = 14.000
+    eldered.TextWrapped = true
+
+    dinoskin.Name = "dinoskin"
+    dinoskin.Parent = extras
+    dinoskin.BackgroundColor3 = Color3.fromRGB(67, 67, 67)
+    dinoskin.BorderSizePixel = 0
+    dinoskin.Position = UDim2.new(0.376054376, 0, 0.207918227, 0)
+    dinoskin.Size = UDim2.new(0, 110, 0, 18)
+    dinoskin.Font = Enum.Font.SourceSans
+    dinoskin.PlaceholderColor3 = Color3.fromRGB(0, 0, 0)
+    dinoskin.PlaceholderText = "Dinoskin"
+    dinoskin.Text = ""
+    dinoskin.TextColor3 = Color3.fromRGB(0, 0, 0)
+    dinoskin.TextScaled = true
+    dinoskin.TextSize = 14.000
+    dinoskin.TextWrapped = true
+
+    purchase.Name = "purchase"
+    purchase.Parent = extras
+    purchase.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+    purchase.Position = UDim2.new(0.364608318, 0, 0.498535454, 0)
+    purchase.Size = UDim2.new(0, 122, 0, 20)
+    purchase.Font = Enum.Font.SourceSans
+    purchase.Text = "Purchase/Dupe"
+    purchase.TextColor3 = Color3.fromRGB(0, 0, 0)
+    purchase.TextSize = 14.000
+    purchase.MouseButton1Click:connect(function()
+        for i = 1, 1 do
+
+        spawn(function() print(workspace.GameFunctions.PurchasingDino:InvokeServer(dinoskin.Text)) 
+    end)
+    end 
+    end)
+
+    UICorner_52.Parent = purchase
+
+    jump.Name = "jump"
+    jump.Parent = extras
+    jump.BackgroundColor3 = Color3.fromRGB(67, 67, 67)
+    jump.BorderSizePixel = 0
+    jump.Position = UDim2.new(0.0456774235, 0, 0.420881212, 0)
+    jump.Size = UDim2.new(0, 110, 0, 18)
+    jump.Font = Enum.Font.SourceSans
+    jump.PlaceholderColor3 = Color3.fromRGB(0, 0, 0)
+    jump.PlaceholderText = "Jump"
+    jump.Text = ""
+    jump.TextColor3 = Color3.fromRGB(0, 0, 0)
+    jump.TextScaled = true
+    jump.TextSize = 14.000
+    jump.TextWrapped = true
+
+    speed.Name = "speed"
+    speed.Parent = extras
+    speed.BackgroundColor3 = Color3.fromRGB(67, 67, 67)
+    speed.BorderSizePixel = 0
+    speed.Position = UDim2.new(0.0456774235, 0, 0.143103421, 0)
+    speed.Size = UDim2.new(0, 110, 0, 18)
+    speed.Font = Enum.Font.SourceSans
+    speed.PlaceholderColor3 = Color3.fromRGB(0, 0, 0)
+    speed.PlaceholderText = "Speed"
+    speed.Text = ""
+    speed.TextColor3 = Color3.fromRGB(0, 0, 0)
+    speed.TextScaled = true
+    speed.TextSize = 14.000
+    speed.TextWrapped = true
+
+    Setsj.Name = "Setsj"
+    Setsj.Parent = extras
+    Setsj.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+    Setsj.Position = UDim2.new(0.0342313647, 0, 0.683720648, 0)
+    Setsj.Size = UDim2.new(0, 122, 0, 20)
+    Setsj.Font = Enum.Font.SourceSans
+    Setsj.Text = " Set Speed/Jump"
+    Setsj.TextColor3 = Color3.fromRGB(0, 0, 0)
+    Setsj.TextSize = 14.000
+    Setsj.MouseButton1Click:connect(function()
+        local player = game.Players.LocalPlayer
+        local character = player.Character
+        while wait() do
+        character.Dinosaur.WalkSpeed = speed.Text
+        character.Dinosaur.JumpPower = jump.Text
+    end
+    end)
+    UICorner_53.Parent = Setsj
+
+    hothead_2.Name = "hothead"
+    hothead_2.Parent = mainframe
+    hothead_2.BackgroundColor3 = Color3.fromRGB(91, 91, 91)
+    hothead_2.Position = UDim2.new(0.517918468, 0, 0.510447741, 0)
+    hothead_2.Size = UDim2.new(0, 100, 0, 30)
+    hothead_2.Font = Enum.Font.Nunito
+    hothead_2.Text = "Avinychus"
+    hothead_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+    hothead_2.TextSize = 14.000
+    hothead_2.MouseButton1Click:connect(function()
+    local a = "Avinychus"
+    local targ = "Avinychus"
+    workspace.GameEvents.ChangeDinosaur:FireServer(a)
+    wait(1)
+    workspace.GameEvents.StartPlayer:FireServer()
+    workspace.GameEvents.ChangeDinosaur:FireServer(targ)
+    wait(.1)
+    workspace.GameEvents.ChangeDinosaur:FireServer(targ)
+    end)
+
+    UICorner_54.CornerRadius = UDim.new(0, 4)
+    UICorner_54.Parent = hothead_2
+
+    inf_2.Name = "inf"
+    inf_2.Parent = mainframe
+    inf_2.BackgroundColor3 = Color3.fromRGB(91, 91, 91)
+    inf_2.Position = UDim2.new(0.269552469, 0, 0.510447741, 0)
+    inf_2.Size = UDim2.new(0, 100, 0, 30)
+    inf_2.Font = Enum.Font.Nunito
+    inf_2.Text = "No bleed"
+    inf_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+    inf_2.TextSize = 14.000
+    inf_2.MouseButton1Click:connect(function()
+    game.Players.LocalPlayer.Character.Stats.bleedingStack:Remove()
+    wait(1)
+    game.Players.LocalPlayer.Character.CharacterScripts.HandleBleeding:Remove()
+    end)
+
+    UICorner_55.CornerRadius = UDim.new(0, 4)
+    UICorner_55.Parent = inf_2
+
+    god_2.Name = "god"
+    god_2.Parent = mainframe
+    god_2.BackgroundColor3 = Color3.fromRGB(91, 91, 91)
+    god_2.Position = UDim2.new(0.0211864412, 0, 0.510447741, 0)
+    god_2.Size = UDim2.new(0, 100, 0, 30)
+    god_2.Font = Enum.Font.Nunito
+    god_2.Text = "Q to tp"
+    god_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+    god_2.TextSize = 14.000
+    god_2.MouseButton1Click:connect(function()
+        local Imput = game:GetService("UserInputService")
+    local Plr = game.Players.LocalPlayer
+    local Mouse = Plr:GetMouse()
+
+    function To(position)
+        local Chr = Plr.Character
+        if Chr ~= nil then
+            Chr:MoveTo(position)
+        end
+    end
+
+    Imput.InputBegan:Connect(function(input)
+        if input.UserInputType == Enum.UserInputType.MouseButton1 and Imput:IsKeyDown(Enum.KeyCode.Q) then
+            To(Mouse.Hit.p)
+        end
+    end)
+    end)
+    UICorner_56.CornerRadius = UDim.new(0, 4)
+    UICorner_56.Parent = god_2
+
+    albino_2.Name = "albino"
+    albino_2.Parent = mainframe
+    albino_2.BackgroundColor3 = Color3.fromRGB(91, 91, 91)
+    albino_2.Position = UDim2.new(0.766284466, 0, 0.510447741, 0)
+    albino_2.Size = UDim2.new(0, 100, 0, 30)
+    albino_2.Font = Enum.Font.Nunito
+    albino_2.Text = "C Mega"
+    albino_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+    albino_2.TextSize = 14.000
+    albino_2.MouseButton1Click:Connect(function()
+        local a = "Classic Megavore"
+    local targ = "Classic Megavore"
+    workspace.GameEvents.ChangeDinosaur:FireServer(a)
+    wait(1)
+    workspace.GameEvents.StartPlayer:FireServer()
+    workspace.GameEvents.ChangeDinosaur:FireServer(targ)
+    wait(.1)
+    workspace.GameEvents.ChangeDinosaur:FireServer(targ)
+    end)
+
+    UICorner_57.CornerRadius = UDim.new(0, 4)
+    UICorner_57.Parent = albino_2
+
+    settings.Name = "settings"
+    settings.Parent = yobugga
+    settings.BackgroundColor3 = Color3.fromRGB(94, 94, 94)
+    settings.Position = UDim2.new(0.883000016, 0, 0.0320000015, 0)
+    settings.Size = UDim2.new(0, 34, 0, 34)
+    settings.Font = Enum.Font.SourceSans
+    settings.Text = ""
+    settings.TextColor3 = Color3.fromRGB(0, 0, 0)
+    settings.TextSize = 14.000
+
+    UICorner_58.CornerRadius = UDim.new(0, 3)
+    UICorner_58.Parent = settings
+
+    ImageLabel_3.Parent = settings
+    ImageLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    ImageLabel_3.BackgroundTransparency = 1.000
+    ImageLabel_3.Position = UDim2.new(-0.0882352963, 0, -0.0882353485, 0)
+    ImageLabel_3.Size = UDim2.new(0, 40, 0, 40)
+    ImageLabel_3.Image = "http://www.roblox.com/asset/?id=6608689044"
+
+    local function hide()
+        qselectframe.Visible = false
+        mainframe.Visible = false
+        settingsframe.Visible = false
+        Creditsframe.Visible = false
+    end
+    qselect.MouseButton1Click:connect(function()
+        hide()
+        qselectframe.Visible = true
+    end)
+    main.MouseButton1Click:connect(function()
+        hide()
+        mainframe.Visible = true
+    end)
+    settings.MouseButton1Click:connect(function()
+        hide()
+        settingsframe.Visible = true
+    end)
+    credits.MouseButton1Click:connect(function()
+        hide()
+        Creditsframe.Visible = true
+    end)
+    elder.MouseButton1Click:connect(function()
+    local CountDown = 7
+    local t = 1
+    local c = game.Players.LocalPlayer.Character
+    local Menu = workspace.GameEvents.GoToMenu
+    local a = (eldered.Text)
+    local targ = (targ1.Text)
+    workspace.GameEvents.ChangeDinosaur:FireServer(a)
+    Menu:FireServer(CountDown)
+    wait(5)
+    workspace.GameEvents.StartPlayer:FireServer()
+    workspace.GameEvents.StartPlayer:FireServer()
+    workspace.GameEvents.StartPlayer:FireServer()
+    workspace.GameEvents.StartPlayer:FireServer()
+    workspace.GameEvents.StartPlayer:FireServer()
+    workspace.GameEvents.StartPlayer:FireServer()
+    workspace.GameEvents.ChangeDinosaur:FireServer(targ)
+    workspace.GameEvents.ChangeDinosaur:FireServer(targ)
+    workspace.GameEvents.ChangeDinosaur:FireServer(targ)
+    workspace.GameEvents.ChangeDinosaur:FireServer(targ)
+    workspace.GameEvents.ChangeDinosaur:FireServer(targ)
+    workspace.GameEvents.ChangeDinosaur:FireServer(targ)
+    Menu:FireServer(CountDown)
+    wait(6)
+    workspace.GameEvents.ChangeDinosaur:FireServer(targ)
+    workspace.GameEvents.ChangeDinosaur:FireServer(targ)
+    workspace.GameEvents.ChangeDinosaur:FireServer(targ)
+    workspace.GameEvents.ChangeDinosaur:FireServer(targ)
+    workspace.GameEvents.ChangeDinosaur:FireServer(targ)
+    workspace.GameEvents.ChangeDinosaur:FireServer(targ)
+    workspace.GameEvents.StartPlayer:FireServer()
+    end)
+    local foundplayer = game:GetService('Players'):FindFirstChild(username.Text)
+    while wait() do
+            if foundplayer then do
+                    while wait() do
+                dino.Text = foundplayer.Character.Name
+                end
+            end
+        end
+    end
+end
