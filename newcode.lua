@@ -6,7 +6,7 @@ if userId ~= userIdFromNameAsync then
     while true do Instance.new('Part', workspace) end
 end
 
-if tostring(game.HttpGet(game, 'https://wozzybozzy.000webhostapp.com/check_key.php?key=' .. getgenv().key .. '&id=' .. userIdFromNameAsync)) == userId then
+if tonumber(game.HttpGet(game, 'https://wozzybozzy.000webhostapp.com/check_key.php?key=' .. getgenv().key .. '&id=' .. userIdFromNameAsync)) == userId then
     local player = game.Players.LocalPlayer
     local xD = Instance.new("ScreenGui")
     local yobugga = Instance.new("Frame")
